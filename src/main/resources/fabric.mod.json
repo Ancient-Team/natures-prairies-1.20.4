@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "natures-prairies",
+	"version": " DEV",
+	"name": "Nature's-Prairies",
+	"description": "There's nothing yet",
+	"authors": [
+		"Ancient Team"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/natures-prairies/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.natureprairies.NaturesPrairies"
+		],
+		"client": [
+			"net.natureprairies.NaturesPrairiesClient"
+		],
+		"fabric-datagen": [
+			"net.natureprairies.NaturesPrairiesDataGenerator"
+		],
+		"terrablender": [
+			"net.natureprairies.world.biome.ModTerraBlenderAPI"
+		]
+	},
+	"mixins": [
+		"natures-prairies.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "0.95.4+1.20.4"
+	},
+	"suggests": {
+
+	}
+}

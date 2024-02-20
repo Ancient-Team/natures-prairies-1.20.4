@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "minecraft:smooth_quartz"
+    },
+    "y": {
+      "item": "natures-prairies:polished_quartz"
+    }
+  },
+  "pattern": [
+    "yx",
+    "xy"
+  ],
+  "result": {
+    "count": 2,
+    "item": "natures-prairies:quartz_tiles"
+  }
+}

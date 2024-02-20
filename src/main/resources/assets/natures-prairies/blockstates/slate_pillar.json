@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "natures-prairies:block/slate_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "natures-prairies:block/slate_pillar"
+    },
+    "axis=z": {
+      "model": "natures-prairies:block/slate_pillar_horizontal",
+      "x": 90
+    }
+  },
+
+
+    "athena:loader": "athena:pillar",
+    "ctm_textures": {
+    "bottom": "natures-prairies:block/slate_pillar/slate_pillar_bottom",
+    "center": "natures-prairies:block/slate_pillar/slate_pillar_centre",
+    "particle": "natures-prairies:block/slate_pillar/slate_pillar_particle",
+    "self": "natures-prairies:block/slate_pillar/slate_pillar_self",
+    "top": "natures-prairies:block/slate_pillar/slate_pillar_top"
+  }
+}

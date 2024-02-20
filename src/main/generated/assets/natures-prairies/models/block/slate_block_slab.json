@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "natures-prairies:block/slate_block",
+    "side": "natures-prairies:block/slate_block",
+    "top": "natures-prairies:block/slate_block"
+  }
+}

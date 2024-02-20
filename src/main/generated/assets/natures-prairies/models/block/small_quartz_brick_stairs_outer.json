@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "natures-prairies:block/small_quartz_bricks",
+    "side": "natures-prairies:block/small_quartz_bricks",
+    "top": "natures-prairies:block/small_quartz_bricks"
+  }
+}

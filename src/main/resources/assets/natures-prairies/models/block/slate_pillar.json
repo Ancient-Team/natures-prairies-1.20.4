@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "natures-prairies:block/slate_pillar/slate_pillar_particle",
+    "side": "natures-prairies:block/slate_pillar/slate_pillar_self"
+  }
+}

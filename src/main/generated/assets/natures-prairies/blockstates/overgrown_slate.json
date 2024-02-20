@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "natures-prairies:block/overgrown_slate"
+      },
+      {
+        "model": "natures-prairies:block/overgrown_slate",
+        "y": 90
+      },
+      {
+        "model": "natures-prairies:block/overgrown_slate",
+        "y": 180
+      },
+      {
+        "model": "natures-prairies:block/overgrown_slate",
+        "y": 270
+      }
+    ]
+  }
+}

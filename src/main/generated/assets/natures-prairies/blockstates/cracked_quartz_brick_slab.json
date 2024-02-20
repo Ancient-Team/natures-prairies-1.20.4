@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "natures-prairies:block/cracked_quartz_brick_slab"
+    },
+    "type=double": {
+      "model": "natures-prairies:block/cracked_quartz_bricks"
+    },
+    "type=top": {
+      "model": "natures-prairies:block/cracked_quartz_brick_slab_top"
+    }
+  }
+}

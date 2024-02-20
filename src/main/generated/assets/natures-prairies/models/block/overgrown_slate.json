@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "natures-prairies:block/slate_block",
+    "particle": "natures-prairies:block/slate_block",
+    "side": "natures-prairies:block/overgrown_slate_side",
+    "top": "natures-prairies:block/overgrown_slate_top"
+  }
+}

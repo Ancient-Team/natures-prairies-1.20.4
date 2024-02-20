@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "natures-prairies:block/smooth_slate_slab"
+    },
+    "type=double": {
+      "model": "natures-prairies:block/smooth_slate"
+    },
+    "type=top": {
+      "model": "natures-prairies:block/smooth_slate_slab_top"
+    }
+  }
+}
