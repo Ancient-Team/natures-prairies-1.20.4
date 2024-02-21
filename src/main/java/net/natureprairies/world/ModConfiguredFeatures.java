@@ -25,6 +25,10 @@ public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> FLOWER_LAWENDER_FIELDS_KEY = registerKey("lavender_fields_key");
 
+    public static final RegistryKey<ConfiguredFeature<?, ?>> PUSHKINIA_KEY = registerKey("pushkinia_patch");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> CROCUS_KEY = registerKey("crocus_patch");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> CLOVER_KEY = registerKey("clover_patch");
+
     public static void boostrap(Registerable<ConfiguredFeature<?, ?>> context) {
 
         RuleTest stoneReplacables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -41,6 +45,16 @@ public class ModConfiguredFeatures {
 
         register(context, SLATE_KEY, Feature.ORE, new OreFeatureConfig(slatePatch, 12));
         //register(context, QUARTZ_KEY, Feature.ORE, new OreFeatureConfig(quartzPatch, 32));
+
+
+        register(context, PUSHKINIA_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModFlowers.PUSHKINIA)))));
+
+        register(context, CROCUS_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModFlowers.CROCUS)))));
+
+        register(context, CLOVER_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModFlowers.CLOVER)))));
 
         register(context,
                 FLOWER_LAWENDER_FIELDS_KEY,

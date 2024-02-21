@@ -17,6 +17,10 @@ public class ModPlacedFeatures {
     //public static final RegistryKey<PlacedFeature> QUARTZ_PLACED_KEY = registerKey("quartz_patch_placed");
 
     public static final RegistryKey <PlacedFeature> FLOWER_LAVENDER_FIELDS_PLACED = registerKey("flower_lavender_fields_placed");
+
+    public static final  RegistryKey<PlacedFeature> PUSHKINIA_PLACED_KEY = registerKey("pushkinia_patch_placed");
+    public static final  RegistryKey<PlacedFeature> CROCUS_PLACED_KEY = registerKey("crocus_patch_placed");
+    public static final  RegistryKey<PlacedFeature> CLOVER_PLACED_KEY = registerKey("clover_patch_placed");
     public static void boostrap(Registerable<PlacedFeature> context) {
         var configuredFeaturesRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
@@ -37,6 +41,13 @@ public class ModPlacedFeatures {
                 PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
                 BiomePlacementModifier.of()
         );
+
+        registerKey(context, PUSHKINIA_PLACED_KEY, configuredFeaturesRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PUSHKINIA_KEY),
+                RarityFilterPlacementModifier.of(4), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
+        registerKey(context, CROCUS_PLACED_KEY, configuredFeaturesRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.CROCUS_KEY),
+                RarityFilterPlacementModifier.of(4), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
+        registerKey(context, CLOVER_PLACED_KEY, configuredFeaturesRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.CLOVER_KEY),
+                RarityFilterPlacementModifier.of(4), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
 
     }
 

@@ -1,15 +1,19 @@
 package net.natureprairies.datagen;
 
+import com.llamalad7.mixinextras.lib.apache.commons.ObjectUtils;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.CraftingRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 import net.natureprairies.block.ModBlocks;
+import net.natureprairies.block.ModFlowers;
 import net.natureprairies.block.SlateBlocks;
 import net.natureprairies.item.ModItems;
 
@@ -22,6 +26,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
+
+        offerShapelessRecipe(exporter, Items.ORANGE_DYE, ModFlowers.CLOVER, String.valueOf(RecipeCategory.MISC), 1);
+        offerShapelessRecipe(exporter, Items.PINK_DYE, ModFlowers.PINK_LAWENDER, String.valueOf(RecipeCategory.MISC), 1);
+        offerShapelessRecipe(exporter, Items.BLUE_DYE, ModFlowers.BLUE_LAVENDER, String.valueOf(RecipeCategory.MISC), 1);
+        offerShapelessRecipe(exporter, Items.LIGHT_BLUE_DYE, ModFlowers.PUSHKINIA, String.valueOf(RecipeCategory.MISC), 1);
+        offerShapelessRecipe(exporter, Items.PURPLE_DYE, ModFlowers.CROCUS, String.valueOf(RecipeCategory.MISC), 1);
+        offerShapelessRecipe(exporter, Items.MAGENTA_DYE, ModFlowers.LAWENDER, String.valueOf(RecipeCategory.MISC), 1);
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC,ModItems.SLATE,RecipeCategory.BUILDING_BLOCKS, SlateBlocks.SLATE_BLOCK);
 

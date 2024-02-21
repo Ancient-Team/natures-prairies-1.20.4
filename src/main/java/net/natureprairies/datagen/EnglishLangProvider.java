@@ -63,12 +63,12 @@ public class EnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(SlateBlocks.SLATE_LANTERN, "Slate Lantern");
         translationBuilder.add(SlateBlocks.QUARTZ_LANTERN, "Quartz Lantern");
 
-        translationBuilder.add(ModFlowers.LAWENDER, "Lawender NO");
-        translationBuilder.add(ModFlowers.PINK_LAWENDER, "Pink Lawender NO");
-        translationBuilder.add(ModFlowers.BLUE_LAVENDER, "Blue Lavender NO");
-        translationBuilder.add(ModFlowers.CLOVER, "Clover NO");
-        translationBuilder.add(ModFlowers.CROCUS, "Crocus NO");
-        translationBuilder.add(ModFlowers.PUSHKINIA, "Pushkinia NO");
+        translationBuilder.add(ModFlowers.LAWENDER, "Lawender");
+        translationBuilder.add(ModFlowers.PINK_LAWENDER, "Pink Lawender");
+        translationBuilder.add(ModFlowers.BLUE_LAVENDER, "Blue Lavender");
+        translationBuilder.add(ModFlowers.CLOVER, "Clover");
+        translationBuilder.add(ModFlowers.CROCUS, "Crocus");
+        translationBuilder.add(ModFlowers.PUSHKINIA, "Pushkinia");
 
         translationBuilder.add(ModItems.SLATE, "Slate");
 
