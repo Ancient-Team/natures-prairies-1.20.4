@@ -1,4 +1,4 @@
-// 1.20.4	2024-02-20T19:04:19.2431629	Nature's-Prairies/Model Definitions
+// 1.20.4	2024-02-21T13:06:27.2849044	Nature's-Prairies/Model Definitions
 c20c5bc3d0f2ffb327e93a2ec892c4266d5aba05 assets\natures-prairies\models\item\blue_lavender.json
 56706faab8e1ef08e79271de15dcf770d91af79f assets\natures-prairies\models\block\slate_block.json
 d905f43d454403bee0af19583c9cc2adaebf836e assets\natures-prairies\blockstates\small_quartz_bricks.json
@@ -100,8 +100,8 @@ faa304863cc9429ae8b813170cfdbfd0ea37dbf3 assets\natures-prairies\blockstates\cro
 067e40e3af78f1e580678a95cb9b30149d07b390 assets\minecraft\blockstates\quartz_block.json
 f7c4b5fa8c6e0f9bcd9f18211b2ade7e1c810382 assets\natures-prairies\models\block\potted_crocus.json
 0daaf8172373d5508befc7b558f700adeefb9afb assets\natures-prairies\blockstates\polished_slate.json
-a576d02d5728b91147c08fed95dc5c16f13212ab assets\natures-prairies\models\block\cracked_slate_bricks.json
 252723541f4b7b363f2602a268a9533cc9c1102c assets\natures-prairies\models\block\slate_block_stairs_outer.json
+a576d02d5728b91147c08fed95dc5c16f13212ab assets\natures-prairies\models\block\cracked_slate_bricks.json
 39803a9c0ac201567e18e4989034bfc6085bfc1b assets\natures-prairies\models\block\chiseled_slate.json
 3c9eb3b2bd04e6cb482d25c09707cc6245d9a2ab assets\natures-prairies\models\block\small_quartz_brick_stairs.json
 75b7aa21d1fe0e978a906d7bc5822c19fe8a6b97 assets\natures-prairies\models\item\slate_block_slab.json
@@ -134,8 +134,8 @@ b529042baabea3ccd077c4831b652bc5c6081ade assets\minecraft\blockstates\smooth_qua
 a37d14739a9b6487ce959efdc1e0abe8f22f1006 assets\natures-prairies\models\block\smooth_slate_stairs_outer.json
 8f38ea6c3eb7c42cd52fead94f8cdf56d56ef431 assets\natures-prairies\models\block\quartz_tiles.json
 21e73505e77efc32d95fcfc319c4966118e80d1d assets\natures-prairies\models\block\blue_lavender.json
-744924445b5b71753cfc58e9c2548facc569995d assets\natures-prairies\models\item\cracked_small_quartz_brick_stairs.json
 e04d1745ec9990bcc93ed23b1dae76fd4029a20f assets\natures-prairies\models\block\cracked_slate_brick_slab_top.json
+744924445b5b71753cfc58e9c2548facc569995d assets\natures-prairies\models\item\cracked_small_quartz_brick_stairs.json
 51ddf22ae1b9d357664d9ab27eadb72a35bfacc4 assets\natures-prairies\models\block\polished_quartz_slab_top.json
 d94692f4c06935c9a7bcb39e7c674efb5b5e9ffb assets\natures-prairies\models\block\smooth_slate_slab_top.json
 fd24b13751eac49c9775e7d3ae0f67a55a00abdb assets\natures-prairies\models\block\cracked_small_slate_brick_stairs_outer.json

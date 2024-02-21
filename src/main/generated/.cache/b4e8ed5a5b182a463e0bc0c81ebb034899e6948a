@@ -1,4 +1,6 @@
-// 1.20.4	2024-02-20T19:04:19.2401636	Nature's-Prairies/World Gen
+// 1.20.4	2024-02-21T13:06:27.282905	Nature's-Prairies/World Gen
 5984390f78b9934b3990d435c37d1d9308830924 data\natures-prairies\worldgen\placed_feature\slate_patch_placed.json
+f45de829be5ca17c32df203658974d7d47a886f1 data\natures-prairies\worldgen\configured_feature\lavender_fields_key.json
 d6a5806e3f5755e3778a0ce044b10d8ec08dbef7 data\natures-prairies\worldgen\configured_feature\slate_patch.json
-cfeb961d24c534f94251329acc35030f4a799a9f data\natures-prairies\worldgen\biome\lavender_fields.json
+f0e61c49d5cb60a0c7208ea0559bd609ae29df78 data\natures-prairies\worldgen\placed_feature\flower_lavender_fields_placed.json
+f74fed508b641ce3a9541c7f774a6bedf64b858d data\natures-prairies\worldgen\biome\lavender_fields.json

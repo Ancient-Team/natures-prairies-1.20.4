@@ -9,15 +9,14 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.sound.BiomeMoodSound;
 import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.biome.Biome;
-import net.minecraft.world.biome.BiomeEffects;
-import net.minecraft.world.biome.GenerationSettings;
-import net.minecraft.world.biome.SpawnSettings;
+import net.minecraft.world.biome.*;
 import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.feature.DefaultBiomeFeatures;
 import net.minecraft.world.gen.feature.VegetationPlacedFeatures;
 import net.natureprairies.NaturesPrairies;
+import net.natureprairies.world.ModPlacedFeatures;
 
 public class Modbiomes {
     public static final RegistryKey<Biome> LAVENDER_FIELDS = RegistryKey.of(RegistryKeys.BIOME,
@@ -54,29 +53,28 @@ public class Modbiomes {
             globalOverworldGeneration(biomeBuilder);
             DefaultBiomeFeatures.addDefaultOres(biomeBuilder);
             DefaultBiomeFeatures.addDefaultDisks(biomeBuilder);
+            DefaultBiomeFeatures.addEmeraldOre(biomeBuilder);
 
             biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.TREES_PLAINS);
-            DefaultBiomeFeatures.addForestFlowers(biomeBuilder);
-            DefaultBiomeFeatures.addLargeFerns(biomeBuilder);
-
-            DefaultBiomeFeatures.addDefaultMushrooms(biomeBuilder);
+            biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.FLOWER_LAVENDER_FIELDS_PLACED);
+            biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.PATCH_GRASS_PLAIN);
             DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
 
             return new Biome.Builder()
                     .precipitation(true)
-                    .downfall(0.4f)
-                    .temperature(0.7f)
+                    .downfall(0.8f)
+                    .temperature(0.5f)
                     .generationSettings(biomeBuilder.build())
                     .spawnSettings(spawnBuilder.build())
                     .effects((new BiomeEffects.Builder())
-                            .waterColor(0xe82e3b)
-                            .waterFogColor(0xbf1b26)
-                            .skyColor(0x30c918)
-                            .grassColor(0x7f03fc)
-                            .foliageColor(0xd203fc)
-                            .fogColor(0x22a1e6)
-                            .moodSound(BiomeMoodSound.CAVE).build())
-                            //.music(MusicType.createIngameMusic(RegistryEntry.of())).build())
+                            .waterColor(0x0E4ECF)
+                            .waterFogColor(0x0E4ECF)
+                            .skyColor(0x78A7FF)
+                            .grassColor(0x83BB6D)
+                            .foliageColor(0x63A948)
+                            .fogColor(0x78A7FF)
+                            .moodSound(BiomeMoodSound.CAVE)
+                            .music(MusicType.createIngameMusic(SoundEvents.MUSIC_OVERWORLD_MEADOW)).build())
                     .build();
         }
     }
