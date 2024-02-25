@@ -23,5 +23,6 @@ public class ModOverworldRegion extends Region {
         this.addModifiedVanillaOverworldBiomes(mapper, modifiedVanillaOverworldBuilder -> {
             modifiedVanillaOverworldBuilder.replaceBiome(BiomeKeys.MEADOW, Modbiomes.LAVENDER_FIELDS);
         });
+
     }
 }

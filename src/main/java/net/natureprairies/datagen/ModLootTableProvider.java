@@ -28,6 +28,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(SlateBlocks.SLATE_BLOCK);
         addDrop(SlateBlocks.SLATE_BLOCK_STAIRS);
         addDrop(SlateBlocks.SLATE_BLOCK_SLAB);
+        addDrop(SlateBlocks.SLATE_BLOCK_WALL);
+
+        addDrop(SlateBlocks.QUARTZ_BLOCK_WALL);
 
         //addDrop(SlateBlocks.COBBLED_SLATE);
         //addDrop(SlateBlocks.COBBLED_SLATE_STAIRS);
@@ -36,30 +39,37 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(SlateBlocks.SMOOTH_SLATE);
         addDrop(SlateBlocks.SMOOTH_SLATE_STAIRS);
         addDrop(SlateBlocks.SMOOTH_SLATE_SLAB);
+        addDrop(SlateBlocks.SMOOTH_SLATE_WALL);
+
+        addDrop(SlateBlocks.SMOOTH_QUARTZ_WALL);
 
         addDrop(SlateBlocks.POLISHED_SLATE);
         addDrop(SlateBlocks.POLISHED_SLATE_STAIRS);
         addDrop(SlateBlocks.POLISHED_SLATE_SLAB);
+        addDrop(SlateBlocks.POLISHED_SLATE_WALL);
 
         addDrop(SlateBlocks.SLATE_BRICKS);
         addDrop(SlateBlocks.SLATE_BRICK_STAIRS);
         addDrop(SlateBlocks.SLATE_BRICK_SLAB);
+        addDrop(SlateBlocks.SLATE_BRICK_WALL);
         addDrop(SlateBlocks.CRACKED_SLATE_BRICKS);
         addDrop(SlateBlocks.CRACKED_SLATE_BRICK_STAIRS);
         addDrop(SlateBlocks.CRACKED_SLATE_BRICK_SLAB);
+        addDrop(SlateBlocks.CRACKED_SLATE_BRICK_WALL);
+
 
         addDrop(SlateBlocks.SMALL_SLATE_BRICKS);
         addDrop(SlateBlocks.SMALL_SLATE_BRICK_STAIRS);
         addDrop(SlateBlocks.SMALL_SLATE_BRICK_SLAB);
+        addDrop(SlateBlocks.SMALL_SLATE_BRICK_WALL);
         addDrop(SlateBlocks.CRACKED_SMALL_SLATE_BRICKS);
         addDrop(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_STAIRS);
         addDrop(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_SLAB);
+        addDrop(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_WALL);
 
         addDrop(SlateBlocks.SLATE_PILLAR);
         addDrop(SlateBlocks.SLATE_TILES);
         addDrop(SlateBlocks.CHISELED_SLATE);
-
-        addDrop(Blocks.QUARTZ_BLOCK);
 
         //addDrop(SlateBlocks.COBBLED_QUARTZ);
         //addDrop(SlateBlocks.COBBLED_QUARTZ_STAIRS);
@@ -72,22 +82,27 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(SlateBlocks.POLISHED_QUARTZ);
         addDrop(SlateBlocks.POLISHED_QUARTZ_STAIRS);
         addDrop(SlateBlocks.POLISHED_QUARTZ_SLAB);
+        addDrop(SlateBlocks.POLISHED_QUARTZ_WALL);
 
         //addDrop(Blocks.QUARTZ_BRICKS);
         addDrop(SlateBlocks.QUARTZ_BRICK_STAIRS);
         addDrop(SlateBlocks.QUARTZ_BRICK_SLAB);
+        addDrop(SlateBlocks.QUARTZ_BRICK_WALL);
 
         addDrop(SlateBlocks.CRACKED_QUARTZ_BRICKS);
         addDrop(SlateBlocks.CRACKED_QUARTZ_BRICK_STAIRS);
         addDrop(SlateBlocks.CRACKED_QUARTZ_BRICK_SLAB);
+        addDrop(SlateBlocks.CRACKED_QUARTZ_BRICK_WALL);
 
         addDrop(SlateBlocks.SMALL_QUARTZ_BRICKS);
         addDrop(SlateBlocks.SMALL_QUARTZ_BRICK_STAIRS);
         addDrop(SlateBlocks.SMALL_QUARTZ_BRICK_SLAB);
+        addDrop(SlateBlocks.SMALL_QUARTZ_BRICK_WALL);
 
         addDrop(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICKS);
         addDrop(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_STAIRS);
         addDrop(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_SLAB);
+        addDrop(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_WALL);
 
         addDrop(SlateBlocks.QUARTZ_TILES);
         //addDrop(Blocks.CHISELED_QUARTZ_BLOCK);

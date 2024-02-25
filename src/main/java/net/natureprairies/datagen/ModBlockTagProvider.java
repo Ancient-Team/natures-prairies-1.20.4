@@ -74,7 +74,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(SlateBlocks.QUARTZ_TILES)
                 //.add(Blocks.CHISELED_QUARTZ_BLOCK)
                 //.add(Blocks.QUARTZ_PILLAR)
-                .add(SlateBlocks.QUARTZ_LANTERN);
+                .add(SlateBlocks.QUARTZ_LANTERN)
+                .add(SlateBlocks.SLATE_BLOCK_WALL)
+                .add(SlateBlocks.SMOOTH_SLATE_WALL)
+                .add(SlateBlocks.POLISHED_SLATE_WALL)
+                .add(SlateBlocks.SLATE_BRICK_WALL)
+                .add(SlateBlocks.QUARTZ_BRICK_WALL)
+                .add(SlateBlocks.CRACKED_SLATE_BRICK_WALL)
+                .add(SlateBlocks.CRACKED_QUARTZ_BRICK_WALL)
+                .add(SlateBlocks.SMALL_SLATE_BRICK_WALL)
+                .add(SlateBlocks.SMALL_QUARTZ_BRICK_WALL)
+                .add(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_WALL)
+                .add(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_WALL);
+
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(SlateBlocks.SLATE_BLOCK)
@@ -132,7 +144,35 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(SlateBlocks.QUARTZ_TILES)
                 //.add(Blocks.CHISELED_QUARTZ_BLOCK)
                 //.add(Blocks.QUARTZ_PILLAR)
-                .add(SlateBlocks.QUARTZ_LANTERN);
+                .add(SlateBlocks.QUARTZ_LANTERN)
+                .add(SlateBlocks.SLATE_BLOCK_WALL)
+                .add(SlateBlocks.QUARTZ_BLOCK_WALL)
+                .add(SlateBlocks.SMOOTH_SLATE_WALL)
+                .add(SlateBlocks.SMOOTH_QUARTZ_WALL)
+                .add(SlateBlocks.POLISHED_SLATE_WALL)
+                .add(SlateBlocks.SLATE_BRICK_WALL)
+                .add(SlateBlocks.QUARTZ_BRICK_WALL)
+                .add(SlateBlocks.CRACKED_SLATE_BRICK_WALL)
+                .add(SlateBlocks.CRACKED_QUARTZ_BRICK_WALL)
+                .add(SlateBlocks.SMALL_SLATE_BRICK_WALL)
+                .add(SlateBlocks.SMALL_QUARTZ_BRICK_WALL)
+                .add(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_WALL)
+                .add(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(SlateBlocks.SLATE_BLOCK_WALL)
+                .add(SlateBlocks.QUARTZ_BLOCK_WALL)
+                .add(SlateBlocks.SMOOTH_SLATE_WALL)
+                .add(SlateBlocks.SMOOTH_QUARTZ_WALL)
+                .add(SlateBlocks.POLISHED_SLATE_WALL)
+                .add(SlateBlocks.POLISHED_QUARTZ_WALL)
+                .add(SlateBlocks.SLATE_BRICK_WALL)
+                .add(SlateBlocks.QUARTZ_BRICK_WALL)
+                .add(SlateBlocks.CRACKED_SLATE_BRICK_WALL)
+                .add(SlateBlocks.CRACKED_QUARTZ_BRICK_WALL)
+                .add(SlateBlocks.SMALL_SLATE_BRICK_WALL)
+                .add(SlateBlocks.SMALL_QUARTZ_BRICK_WALL)
+                .add(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_WALL)
+                .add(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_WALL);
 
         getOrCreateTagBuilder(BlockTags.DIRT)
                 .add(SlateBlocks.OVERGROWN_SLATE);
@@ -151,6 +191,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModFlowers.CLOVER)
                 .add(ModFlowers.CROCUS)
                 .add(ModFlowers.PUSHKINIA);
+
 
         //getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
 

@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "natures-prairies",
-	"version": " DEV",
+	"version": "0.0.1-Snapshot",
 	"name": "Nature's-Prairies",
-	"description": "There's nothing yet",
+	"description": "Ordinary nature mod for Fabric",
 	"authors": [
 		"Ancient Team"
 	],

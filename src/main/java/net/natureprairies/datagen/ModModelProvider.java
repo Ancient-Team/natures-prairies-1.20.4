@@ -61,9 +61,12 @@ public class ModModelProvider extends FabricModelProvider {
 
         slatePool.stairs(SlateBlocks.SLATE_BLOCK_STAIRS);
         slatePool.slab(SlateBlocks.SLATE_BLOCK_SLAB);
+        slatePool.wall(SlateBlocks.SLATE_BLOCK_WALL);
 
-        quartzBlockPool.stairs(Blocks.QUARTZ_STAIRS);
-        quartzBlockPool.slab(Blocks.QUARTZ_SLAB);
+        //quartzBlockPool.stairs(Blocks.QUARTZ_STAIRS);
+        //quartzBlockPool.slab(Blocks.QUARTZ_SLAB);
+        //quartzBlockPool.wall(SlateBlocks.QUARTZ_BLOCK_WALL);
+
 
         //cobbledSlatePool.stairs(SlateBlocks.COBBLED_SLATE_STAIRS);
         //cobbledSlatePool.slab(SlateBlocks.COBBLED_SLATE_SLAB);
@@ -73,39 +76,51 @@ public class ModModelProvider extends FabricModelProvider {
 
         smoothSlatePool.stairs(SlateBlocks.SMOOTH_SLATE_STAIRS);
         smoothSlatePool.slab(SlateBlocks.SMOOTH_SLATE_SLAB);
+        smoothSlatePool.wall(SlateBlocks.SMOOTH_SLATE_WALL);
 
         smoothQuartzPool.stairs(Blocks.SMOOTH_QUARTZ_STAIRS);
         smoothQuartzPool.slab(Blocks.SMOOTH_QUARTZ_SLAB);
+        smoothQuartzPool.wall(SlateBlocks.SMOOTH_QUARTZ_WALL);
 
         polishedSlatePool.slab(SlateBlocks.POLISHED_SLATE_SLAB);
         polishedSlatePool.stairs(SlateBlocks.POLISHED_SLATE_STAIRS);
+        polishedSlatePool.wall(SlateBlocks.POLISHED_SLATE_WALL);
 
         polishedQuartzPool.slab(SlateBlocks.POLISHED_QUARTZ_SLAB);
         polishedQuartzPool.stairs(SlateBlocks.POLISHED_QUARTZ_STAIRS);
+        polishedQuartzPool.wall(SlateBlocks.POLISHED_QUARTZ_WALL);
 
         slateBrickPool.slab(SlateBlocks.SLATE_BRICK_SLAB);
         slateBrickPool.stairs(SlateBlocks.SLATE_BRICK_STAIRS);
+        slateBrickPool.wall(SlateBlocks.SLATE_BRICK_WALL);
 
         quartzBrickPool.slab(SlateBlocks.QUARTZ_BRICK_SLAB);
         quartzBrickPool.stairs(SlateBlocks.QUARTZ_BRICK_STAIRS);
+        quartzBrickPool.wall(SlateBlocks.QUARTZ_BRICK_WALL);
 
         crackedSlateBrickPool.slab(SlateBlocks.CRACKED_SLATE_BRICK_SLAB);
         crackedSlateBrickPool.stairs(SlateBlocks.CRACKED_SLATE_BRICK_STAIRS);
+        crackedSlateBrickPool.wall(SlateBlocks.CRACKED_SLATE_BRICK_WALL);
 
         crackedQuartzBrickPool.slab(SlateBlocks.CRACKED_QUARTZ_BRICK_SLAB);
         crackedQuartzBrickPool.stairs(SlateBlocks.CRACKED_QUARTZ_BRICK_STAIRS);
+        crackedQuartzBrickPool.wall(SlateBlocks.CRACKED_QUARTZ_BRICK_WALL);
 
         smallSlateBrickPool.slab(SlateBlocks.SMALL_SLATE_BRICK_SLAB);
         smallSlateBrickPool.stairs(SlateBlocks.SMALL_SLATE_BRICK_STAIRS);
+        smallSlateBrickPool.wall(SlateBlocks.SMALL_SLATE_BRICK_WALL);
 
         smallQuartzBrickPool.slab(SlateBlocks.SMALL_QUARTZ_BRICK_SLAB);
         smallQuartzBrickPool.stairs(SlateBlocks.SMALL_QUARTZ_BRICK_STAIRS);
+        smallQuartzBrickPool.wall(SlateBlocks.SMALL_QUARTZ_BRICK_WALL);
 
         crackedSmallSlateBrickPool.slab(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_SLAB);
         crackedSmallSlateBrickPool.stairs(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_STAIRS);
+        crackedSmallSlateBrickPool.wall(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_WALL);
 
         crackedSmallQuartzBrickPool.slab(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_SLAB);
         crackedSmallQuartzBrickPool.stairs(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_STAIRS);
+        crackedSmallQuartzBrickPool.wall(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_WALL);
 
     }
 

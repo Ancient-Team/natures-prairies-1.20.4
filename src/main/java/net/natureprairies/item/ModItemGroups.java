@@ -35,7 +35,6 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.SLATE)).entries((displayContext, entries) -> {
 
                         entries.add(SlateBlocks.SLATE_BLOCK);
-                        entries.add(SlateBlocks.SLATE_ORE);
                         //entries.add(SlateBlocks.COBBLED_SLATE);
                         entries.add(SlateBlocks.SMOOTH_SLATE);
                         entries.add(SlateBlocks.POLISHED_SLATE);
@@ -43,6 +42,7 @@ public class ModItemGroups {
                         entries.add(SlateBlocks.CRACKED_SLATE_BRICKS);
                         entries.add(SlateBlocks.SMALL_SLATE_BRICKS);
                         entries.add(SlateBlocks.CRACKED_SMALL_SLATE_BRICKS);
+
 
                         entries.add(SlateBlocks.SLATE_TILES);
 
@@ -56,6 +56,7 @@ public class ModItemGroups {
                         entries.add(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_STAIRS);
 
 
+
                         entries.add(SlateBlocks.CHISELED_SLATE);
 
                         entries.add(SlateBlocks.SLATE_BLOCK_SLAB);
@@ -67,11 +68,20 @@ public class ModItemGroups {
                         entries.add(SlateBlocks.SMALL_SLATE_BRICK_SLAB);
                         entries.add(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_SLAB);
 
+                        entries.add(SlateBlocks.SLATE_LANTERN);
+
+                        entries.add(SlateBlocks.SLATE_BLOCK_WALL);
+                        entries.add(SlateBlocks.SMOOTH_SLATE_WALL);
+                        entries.add(SlateBlocks.POLISHED_SLATE_WALL);
+                        entries.add(SlateBlocks.SLATE_BRICK_WALL);
+                        entries.add(SlateBlocks.CRACKED_SLATE_BRICK_WALL);
+                        entries.add(SlateBlocks.SMALL_SLATE_BRICK_WALL);
+                        entries.add(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_WALL);
 
                         entries.add(SlateBlocks.SLATE_PILLAR);
-                        entries.add(SlateBlocks.OVERGROWN_SLATE);
-                        entries.add(SlateBlocks.SLATE_LANTERN);
-                        entries.add(ModItems.SLATE);
+
+                        //entries.add(SlateBlocks.OVERGROWN_SLATE);
+
 
                         entries.add(Blocks.QUARTZ_BLOCK);
                         //entries.add(SlateBlocks.COBBLED_QUARTZ);
@@ -105,13 +115,29 @@ public class ModItemGroups {
                         entries.add(SlateBlocks.SMALL_QUARTZ_BRICK_SLAB);
                         entries.add(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_SLAB);
 
+                        entries.add(SlateBlocks.QUARTZ_LANTERN);
+
+                        entries.add(SlateBlocks.QUARTZ_BLOCK_WALL);
+                        entries.add(SlateBlocks.SMOOTH_QUARTZ_WALL);
+                        entries.add(SlateBlocks.POLISHED_QUARTZ_WALL);
+                        entries.add(SlateBlocks.QUARTZ_BRICK_WALL);
+                        entries.add(SlateBlocks.CRACKED_QUARTZ_BRICK_WALL);
+                        entries.add(SlateBlocks.SMALL_QUARTZ_BRICK_WALL);
+                        entries.add(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_WALL);
+
                         entries.add(Blocks.QUARTZ_PILLAR);
 
 
+
+                        entries.add(SlateBlocks.SLATE_ORE);
+                        entries.add(ModItems.SLATE);
+
+                        entries.add(Blocks.NETHER_QUARTZ_ORE);
                         entries.add(Items.QUARTZ);
 
 
-                        entries.add(SlateBlocks.QUARTZ_LANTERN);
+
+
 
 
 

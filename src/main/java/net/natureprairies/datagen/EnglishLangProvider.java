@@ -16,50 +16,83 @@ public class EnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(SlateBlocks.SLATE_BLOCK, "Slate Block");
         translationBuilder.add(SlateBlocks.SLATE_BLOCK_SLAB, "Slate Slab");
         translationBuilder.add(SlateBlocks.SLATE_BLOCK_STAIRS, "Slate Stairs");
+        translationBuilder.add(SlateBlocks.SLATE_BLOCK_WALL, "Slate Wall");
+
+        translationBuilder.add(SlateBlocks.QUARTZ_BLOCK_WALL, "Quartz Wall");
+
         translationBuilder.add(SlateBlocks.SLATE_ORE, "Slate Ore");
+
         //translationBuilder.add(SlateBlocks.COBBLED_SLATE, "Cobbled Slate");
         //translationBuilder.add(SlateBlocks.COBBLED_SLATE_SLAB, "Cobbled Slate Slab");
         //translationBuilder.add(SlateBlocks.COBBLED_SLATE_STAIRS, "Cobbled Slate Stairs");
         //translationBuilder.add(SlateBlocks.COBBLED_QUARTZ, "Cobbled Quartz");
         //translationBuilder.add(SlateBlocks.COBBLED_QUARTZ_SLAB, "Cobbled Quartz Slab");
         //translationBuilder.add(SlateBlocks.COBBLED_QUARTZ_STAIRS, "Cobbled Quartz Stairs");
+
         translationBuilder.add(SlateBlocks.SMOOTH_SLATE, "Smooth Slate");
         translationBuilder.add(SlateBlocks.SMOOTH_SLATE_SLAB, "Smooth Slate Slab");
         translationBuilder.add(SlateBlocks.SMOOTH_SLATE_STAIRS, "Smooth Slate Stairs");
+        translationBuilder.add(SlateBlocks.SMOOTH_SLATE_WALL, "Smooth Slate Wall");
+
+        translationBuilder.add(SlateBlocks.SMOOTH_QUARTZ_WALL, "Smooth Quartz Wall");
+
         translationBuilder.add(SlateBlocks.POLISHED_SLATE, "Polished Slate");
         translationBuilder.add(SlateBlocks.POLISHED_SLATE_SLAB, "Polished Slate Slab");
         translationBuilder.add(SlateBlocks.POLISHED_SLATE_STAIRS, "Polished Slate Stairs");
+        translationBuilder.add(SlateBlocks.POLISHED_SLATE_WALL, "Polished Slate Wall");
+
         translationBuilder.add(SlateBlocks.CHISELED_SLATE, "Chiseled Slate");
+
         translationBuilder.add(SlateBlocks.POLISHED_QUARTZ, "Polished Quartz");
         translationBuilder.add(SlateBlocks.POLISHED_QUARTZ_SLAB, "Polished Quartz Slab");
         translationBuilder.add(SlateBlocks.POLISHED_QUARTZ_STAIRS, "Polished Quartz Stairs");
+        translationBuilder.add(SlateBlocks.POLISHED_QUARTZ_WALL, "Polished Quartz Wall");
+
         translationBuilder.add(SlateBlocks.SLATE_TILES, "Slate Tiles");
         translationBuilder.add(SlateBlocks.QUARTZ_TILES, "Quartz Tiles");
+
         translationBuilder.add(SlateBlocks.SLATE_BRICKS, "Slate Bricks");
         translationBuilder.add(SlateBlocks.SLATE_BRICK_SLAB, "Slate Brick Slab");
         translationBuilder.add(SlateBlocks.SLATE_BRICK_STAIRS, "Slate Brick Stairs");
+        translationBuilder.add(SlateBlocks.SLATE_BRICK_WALL, "Slate Brick Wall");
+
         translationBuilder.add(SlateBlocks.QUARTZ_BRICK_SLAB, "Quartz Brick Slab");
         translationBuilder.add(SlateBlocks.QUARTZ_BRICK_STAIRS, "Quartz Brick Stairs");
+        translationBuilder.add(SlateBlocks.QUARTZ_BRICK_WALL, "Quartz Brick Wall");
+
         translationBuilder.add(SlateBlocks.CRACKED_SLATE_BRICKS, "Cracked Slate Bricks");
         translationBuilder.add(SlateBlocks.CRACKED_SLATE_BRICK_SLAB, "Cracked Slate Brick Slab");
         translationBuilder.add(SlateBlocks.CRACKED_SLATE_BRICK_STAIRS, "Cracked Slate Brick Stairs");
+        translationBuilder.add(SlateBlocks.CRACKED_SLATE_BRICK_WALL, "Cracked Slate Bricks Wall");
+
         translationBuilder.add(SlateBlocks.CRACKED_QUARTZ_BRICKS, "Cracked Quartz Bricks");
         translationBuilder.add(SlateBlocks.CRACKED_QUARTZ_BRICK_SLAB, "Cracked Quartz Brick Slab");
         translationBuilder.add(SlateBlocks.CRACKED_QUARTZ_BRICK_STAIRS, "Cracked Quartz Brick Stairs");
+        translationBuilder.add(SlateBlocks.CRACKED_QUARTZ_BRICK_WALL, "Cracked Quartz Brick Wall");
+
         translationBuilder.add(SlateBlocks.SMALL_SLATE_BRICKS, "Small Slate Bricks");
         translationBuilder.add(SlateBlocks.SMALL_SLATE_BRICK_SLAB, "Small Slate Brick Slab");
         translationBuilder.add(SlateBlocks.SMALL_SLATE_BRICK_STAIRS, "Small Slate Brick Stairs");
+        translationBuilder.add(SlateBlocks.SMALL_SLATE_BRICK_WALL, "Small Slate Brick Wall");
+
         translationBuilder.add(SlateBlocks.SMALL_QUARTZ_BRICKS, "Small Quartz Bricks");
         translationBuilder.add(SlateBlocks.SMALL_QUARTZ_BRICK_SLAB, "Small Quartz Brick Slab");
         translationBuilder.add(SlateBlocks.SMALL_QUARTZ_BRICK_STAIRS, "Small Quartz Brick Stairs");
+        translationBuilder.add(SlateBlocks.SMALL_QUARTZ_BRICK_WALL, "Small Quartz Brick Wall");
+
         translationBuilder.add(SlateBlocks.CRACKED_SMALL_SLATE_BRICKS, "Cracked Small Slate Bricks");
         translationBuilder.add(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_SLAB, "Cracked Small Slate Brick Slab");
         translationBuilder.add(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_STAIRS, "Cracked Small Slate Brick Stairs");
+        translationBuilder.add(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_WALL, "Cracked Small Slate Brick Wall");
+
         translationBuilder.add(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICKS, "Cracked Small Quartz Bricks");
         translationBuilder.add(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_SLAB, "Cracked Small Quartz Brick Slab");
         translationBuilder.add(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_STAIRS, "Cracked Small Quartz Brick Stairs");
+        translationBuilder.add(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_WALL, "Cracked Small Quartz Brick Wall");
+
         translationBuilder.add(SlateBlocks.SLATE_PILLAR, "Slate Pillar");
         translationBuilder.add(SlateBlocks.OVERGROWN_SLATE, "Overgrown Slate NO");
+
         translationBuilder.add(SlateBlocks.SLATE_LANTERN, "Slate Lantern");
         translationBuilder.add(SlateBlocks.QUARTZ_LANTERN, "Quartz Lantern");
 
