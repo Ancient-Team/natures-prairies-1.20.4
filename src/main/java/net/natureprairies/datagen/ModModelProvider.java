@@ -55,9 +55,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerFlowerPotPlant(ModFlowers.LAWENDER, ModFlowers.POTTED_LAWENDER, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModFlowers.PINK_LAWENDER, ModFlowers.POTTED_PINK_LAWENDER, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModFlowers.BLUE_LAVENDER, ModFlowers.POTTED_BLUE_LAVENDER, BlockStateModelGenerator.TintType.NOT_TINTED);
-        blockStateModelGenerator.registerFlowerPotPlant(ModFlowers.CLOVER, ModFlowers.POTTED_CLOVER, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModFlowers.CLOVES, ModFlowers.POTTED_CLOVES, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModFlowers.CROCUS, ModFlowers.POTTED_CROCUS, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModFlowers.PUSHKINIA, ModFlowers.POTTED_PUSHKINIA, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModFlowers.RED_ROSE, ModFlowers.POTTED_RED_ROSE, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         slatePool.stairs(SlateBlocks.SLATE_BLOCK_STAIRS);
         slatePool.slab(SlateBlocks.SLATE_BLOCK_SLAB);

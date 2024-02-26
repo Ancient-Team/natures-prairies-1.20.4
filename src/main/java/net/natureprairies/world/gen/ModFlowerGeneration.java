@@ -21,7 +21,22 @@ public class ModFlowerGeneration {
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CROCUS_PLACED_KEY);
 
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.FLOWER_FOREST),
-                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CLOVER_PLACED_KEY);
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CLOVES_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.FLOWER_FOREST),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.RED_ROSE_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.FOREST),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.RED_ROSE_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.FOREST),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CLOVES_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.BIRCH_FOREST),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CLOVES_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.BIRCH_FOREST),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.PUSHKINIA_PLACED_KEY);
 
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.MEADOW),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.PUSHKINIA_PLACED_KEY);
@@ -30,7 +45,10 @@ public class ModFlowerGeneration {
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CROCUS_PLACED_KEY);
 
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.MEADOW),
-                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CLOVER_PLACED_KEY);
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CLOVES_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.MEADOW),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.RED_ROSE_PLACED_KEY);
 
     }
 }

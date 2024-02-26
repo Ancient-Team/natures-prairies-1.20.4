@@ -27,14 +27,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
 
-        offerShapelessRecipe(exporter, Items.ORANGE_DYE, ModFlowers.CLOVER, String.valueOf(RecipeCategory.MISC), 1);
+        offerShapelessRecipe(exporter, Items.ORANGE_DYE, ModFlowers.CLOVES, String.valueOf(RecipeCategory.MISC), 1);
         offerShapelessRecipe(exporter, Items.PINK_DYE, ModFlowers.PINK_LAWENDER, String.valueOf(RecipeCategory.MISC), 1);
         offerShapelessRecipe(exporter, Items.BLUE_DYE, ModFlowers.BLUE_LAVENDER, String.valueOf(RecipeCategory.MISC), 1);
         offerShapelessRecipe(exporter, Items.LIGHT_BLUE_DYE, ModFlowers.PUSHKINIA, String.valueOf(RecipeCategory.MISC), 1);
         offerShapelessRecipe(exporter, Items.PURPLE_DYE, ModFlowers.CROCUS, String.valueOf(RecipeCategory.MISC), 1);
         offerShapelessRecipe(exporter, Items.MAGENTA_DYE, ModFlowers.LAWENDER, String.valueOf(RecipeCategory.MISC), 1);
+        offerShapelessRecipe(exporter, Items.RED_DYE, ModFlowers.RED_ROSE, String.valueOf(RecipeCategory.MISC), 1);
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC,ModItems.SLATE,RecipeCategory.BUILDING_BLOCKS, SlateBlocks.SLATE_BLOCK);
+
+
 
         //offerSmelting(exporter, List.of(SlateBlocks.COBBLED_SLATE), RecipeCategory.MISC, SlateBlocks.SLATE_BLOCK,
                 //0.7f, 200, "slate");
@@ -114,16 +117,64 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSlabRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.SMALL_SLATE_BRICK_SLAB,SlateBlocks.SMALL_SLATE_BRICKS);
         offerSlabRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.CRACKED_SMALL_SLATE_BRICK_SLAB,SlateBlocks.CRACKED_SMALL_SLATE_BRICKS);
 
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.SLATE_BLOCK_WALL, SlateBlocks.SLATE_BLOCK);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.SMOOTH_SLATE_WALL, SlateBlocks.SMOOTH_SLATE);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.POLISHED_SLATE_WALL, SlateBlocks.POLISHED_SLATE);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.SLATE_BRICK_WALL, SlateBlocks.SLATE_BRICKS);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.CRACKED_SLATE_BRICK_WALL, SlateBlocks.CRACKED_SLATE_BRICKS);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.SMALL_SLATE_BRICK_WALL, SlateBlocks.SMALL_SLATE_BRICKS);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.CRACKED_SMALL_SLATE_BRICK_WALL, SlateBlocks.CRACKED_SMALL_SLATE_BRICKS);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.QUARTZ_BLOCK_WALL, Blocks.QUARTZ_BLOCK);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.SMOOTH_QUARTZ_WALL, Blocks.SMOOTH_QUARTZ);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.POLISHED_QUARTZ_WALL, SlateBlocks.POLISHED_QUARTZ);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.QUARTZ_BRICK_WALL, Blocks.QUARTZ_BRICKS);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.CRACKED_QUARTZ_BRICK_WALL, SlateBlocks.CRACKED_QUARTZ_BRICKS);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.SMALL_QUARTZ_BRICK_WALL, SlateBlocks.SMALL_QUARTZ_BRICKS);
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_WALL, SlateBlocks.CRACKED_SMALL_QUARTZ_BRICKS);
 
+        //createStairsRecipe(SlateBlocks.POLISHED_QUARTZ_STAIRS, Ingredient.ofItems(SlateBlocks.POLISHED_QUARTZ)).offerTo(exporter);
+        //createStairsRecipe(SlateBlocks.QUARTZ_BRICK_STAIRS, Ingredient.ofItems(Blocks.QUARTZ_BRICKS)).offerTo(exporter);
+        //createStairsRecipe(SlateBlocks.CRACKED_QUARTZ_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.CRACKED_QUARTZ_BRICKS)).offerTo(exporter);
+        //createStairsRecipe(SlateBlocks.SMALL_QUARTZ_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.SMALL_QUARTZ_BRICKS)).offerTo(exporter);
+        //createStairsRecipe(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICKS)).offerTo(exporter);
 
-        createStairsRecipe(SlateBlocks.SLATE_BLOCK_STAIRS, Ingredient.ofItems(SlateBlocks.SLATE_BLOCK));
-        //createStairsRecipe(SlateBlocks.COBBLED_SLATE_STAIRS, Ingredient.ofItems(SlateBlocks.COBBLED_SLATE));
-        createStairsRecipe(SlateBlocks.SMOOTH_SLATE_STAIRS, Ingredient.ofItems(SlateBlocks.SMOOTH_SLATE));
-        createStairsRecipe(SlateBlocks.POLISHED_SLATE_STAIRS, Ingredient.ofItems(SlateBlocks.POLISHED_SLATE));
-        createStairsRecipe(SlateBlocks.SLATE_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.SLATE_BRICKS));
-        createStairsRecipe(SlateBlocks.CRACKED_SLATE_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.CRACKED_SLATE_BRICKS));
-        createStairsRecipe(SlateBlocks.SMALL_SLATE_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.SMALL_SLATE_BRICKS));
-        createStairsRecipe(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.CRACKED_SMALL_SLATE_BRICKS));
+        createStairsRecipe(SlateBlocks.SLATE_BLOCK_STAIRS, Ingredient.ofItems(SlateBlocks.SLATE_BLOCK))
+                .criterion(hasItem(SlateBlocks.SLATE_BLOCK), conditionsFromItem(SlateBlocks.SLATE_BLOCK))
+                .offerTo(exporter);
+        createStairsRecipe(SlateBlocks.SMOOTH_SLATE_STAIRS, Ingredient.ofItems(SlateBlocks.SMOOTH_SLATE))
+                .criterion(hasItem(SlateBlocks.SMOOTH_SLATE), conditionsFromItem(SlateBlocks.SMOOTH_SLATE))
+                .offerTo(exporter);
+        createStairsRecipe(SlateBlocks.POLISHED_SLATE_STAIRS, Ingredient.ofItems(SlateBlocks.POLISHED_SLATE))
+                .criterion(hasItem(SlateBlocks.POLISHED_SLATE), conditionsFromItem(SlateBlocks.POLISHED_SLATE))
+                .offerTo(exporter);
+        createStairsRecipe(SlateBlocks.SLATE_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.SLATE_BRICKS))
+                .criterion(hasItem(SlateBlocks.SLATE_BRICKS), conditionsFromItem(SlateBlocks.SLATE_BRICKS))
+                .offerTo(exporter);
+        createStairsRecipe(SlateBlocks.CRACKED_SLATE_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.CRACKED_SLATE_BRICKS))
+                .criterion(hasItem(SlateBlocks.CRACKED_SLATE_BRICKS), conditionsFromItem(SlateBlocks.CRACKED_SLATE_BRICKS))
+                .offerTo(exporter);
+        createStairsRecipe(SlateBlocks.SMALL_SLATE_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.SMALL_SLATE_BRICKS))
+                .criterion(hasItem(SlateBlocks.SMALL_SLATE_BRICKS), conditionsFromItem(SlateBlocks.SMALL_SLATE_BRICKS))
+                .offerTo(exporter);
+        createStairsRecipe(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.CRACKED_SMALL_SLATE_BRICKS))
+                .criterion(hasItem(SlateBlocks.CRACKED_SMALL_SLATE_BRICKS), conditionsFromItem(SlateBlocks.CRACKED_SMALL_SLATE_BRICKS))
+                .offerTo(exporter);
+
+        createStairsRecipe(SlateBlocks.POLISHED_QUARTZ_STAIRS, Ingredient.ofItems(SlateBlocks.POLISHED_QUARTZ))
+                .criterion(hasItem(SlateBlocks.POLISHED_QUARTZ), conditionsFromItem(SlateBlocks.POLISHED_QUARTZ))
+                .offerTo(exporter);
+        createStairsRecipe(SlateBlocks.QUARTZ_BRICK_STAIRS, Ingredient.ofItems(Blocks.QUARTZ_BRICKS))
+                .criterion(hasItem(Blocks.QUARTZ_BRICKS), conditionsFromItem(Blocks.QUARTZ_BRICKS))
+                .offerTo(exporter);
+        createStairsRecipe(SlateBlocks.CRACKED_QUARTZ_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.CRACKED_QUARTZ_BRICKS))
+                .criterion(hasItem(SlateBlocks.CRACKED_QUARTZ_BRICKS), conditionsFromItem(SlateBlocks.CRACKED_QUARTZ_BRICKS))
+                .offerTo(exporter);
+        createStairsRecipe(SlateBlocks.SMALL_QUARTZ_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.SMALL_QUARTZ_BRICKS))
+                .criterion(hasItem(SlateBlocks.SMALL_QUARTZ_BRICKS), conditionsFromItem(SlateBlocks.SMALL_QUARTZ_BRICKS))
+                .offerTo(exporter);
+        createStairsRecipe(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_STAIRS, Ingredient.ofItems(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICKS))
+                .criterion(hasItem(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICKS), conditionsFromItem(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICKS))
+                .offerTo(exporter);
 
         //offerSmelting(exporter, List.of(SlateBlocks.COBBLED_QUARTZ), RecipeCategory.MISC, Blocks.QUARTZ_BLOCK,
                 //0.7f, 200, "quartz");

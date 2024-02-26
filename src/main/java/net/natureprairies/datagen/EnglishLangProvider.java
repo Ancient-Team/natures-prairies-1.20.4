@@ -99,9 +99,10 @@ public class EnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModFlowers.LAWENDER, "Lawender");
         translationBuilder.add(ModFlowers.PINK_LAWENDER, "Pink Lawender");
         translationBuilder.add(ModFlowers.BLUE_LAVENDER, "Blue Lavender");
-        translationBuilder.add(ModFlowers.CLOVER, "Clover");
+        translationBuilder.add(ModFlowers.CLOVES, "Cloves");
         translationBuilder.add(ModFlowers.CROCUS, "Crocus");
         translationBuilder.add(ModFlowers.PUSHKINIA, "Pushkinia");
+        translationBuilder.add(ModFlowers.RED_ROSE, "Red Rose");
 
         translationBuilder.add(ModItems.SLATE, "Slate");
 

@@ -27,7 +27,8 @@ public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> PUSHKINIA_KEY = registerKey("pushkinia_patch");
     public static final RegistryKey<ConfiguredFeature<?, ?>> CROCUS_KEY = registerKey("crocus_patch");
-    public static final RegistryKey<ConfiguredFeature<?, ?>> CLOVER_KEY = registerKey("clover_patch");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> CLOVES_KEY = registerKey("cloves_patch");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> RED_ROSE_KEY = registerKey("red_rose_patch");
 
     public static void boostrap(Registerable<ConfiguredFeature<?, ?>> context) {
 
@@ -53,8 +54,11 @@ public class ModConfiguredFeatures {
         register(context, CROCUS_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(ModFlowers.CROCUS)))));
 
-        register(context, CLOVER_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModFlowers.CLOVER)))));
+        register(context, CLOVES_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModFlowers.CLOVES)))));
+
+        register(context, RED_ROSE_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModFlowers.RED_ROSE)))));
 
         register(context,
                 FLOWER_LAWENDER_FIELDS_KEY,

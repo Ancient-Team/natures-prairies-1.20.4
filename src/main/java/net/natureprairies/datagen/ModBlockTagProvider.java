@@ -181,16 +181,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModFlowers.LAWENDER)
                 .add(ModFlowers.PINK_LAWENDER)
                 .add(ModFlowers.BLUE_LAVENDER)
-                .add(ModFlowers.CLOVER)
+                .add(ModFlowers.CLOVES)
                 .add(ModFlowers.CROCUS)
-                .add(ModFlowers.PUSHKINIA);
+                .add(ModFlowers.PUSHKINIA)
+                .add(ModFlowers.RED_ROSE);
         getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
                 .add(ModFlowers.LAWENDER)
                 .add(ModFlowers.PINK_LAWENDER)
                 .add(ModFlowers.BLUE_LAVENDER)
-                .add(ModFlowers.CLOVER)
+                .add(ModFlowers.CLOVES)
                 .add(ModFlowers.CROCUS)
-                .add(ModFlowers.PUSHKINIA);
+                .add(ModFlowers.PUSHKINIA)
+                .add(ModFlowers.RED_ROSE);
+
 
 
         //getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)

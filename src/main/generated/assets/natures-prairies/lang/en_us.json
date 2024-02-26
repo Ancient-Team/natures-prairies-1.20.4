@@ -1,7 +1,7 @@
 {
   "block.natures-prairies.blue_lavender": "Blue Lavender",
   "block.natures-prairies.chiseled_slate": "Chiseled Slate",
-  "block.natures-prairies.clover": "Clover",
+  "block.natures-prairies.clover": "Cloves",
   "block.natures-prairies.cracked_quartz_brick_slab": "Cracked Quartz Brick Slab",
   "block.natures-prairies.cracked_quartz_brick_stairs": "Cracked Quartz Brick Stairs",
   "block.natures-prairies.cracked_quartz_brick_wall": "Cracked Quartz Brick Wall",
@@ -37,6 +37,7 @@
   "block.natures-prairies.quartz_brick_wall": "Quartz Brick Wall",
   "block.natures-prairies.quartz_lantern": "Quartz Lantern",
   "block.natures-prairies.quartz_tiles": "Quartz Tiles",
+  "block.natures-prairies.red_rose": "Red Rose",
   "block.natures-prairies.slate_block": "Slate Block",
   "block.natures-prairies.slate_block_slab": "Slate Slab",
   "block.natures-prairies.slate_block_stairs": "Slate Stairs",

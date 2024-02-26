@@ -25,9 +25,10 @@ public class ModItemGroups {
                         entries.add(ModFlowers.LAWENDER);
                         entries.add(ModFlowers.PINK_LAWENDER);
                         entries.add(ModFlowers.BLUE_LAVENDER);
-                        entries.add(ModFlowers.CLOVER);
+                        entries.add(ModFlowers.CLOVES);
                         entries.add(ModFlowers.CROCUS);
                         entries.add(ModFlowers.PUSHKINIA);
+                        entries.add(ModFlowers.RED_ROSE);
                     }).build());
     public static final ItemGroup NATURES_PRAIRIES = Registry.register(Registries.ITEM_GROUP,
             new Identifier(NaturesPrairies.MODID, "natureprairies"),

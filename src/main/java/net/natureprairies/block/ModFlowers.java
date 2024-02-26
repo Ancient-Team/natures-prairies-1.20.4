@@ -36,14 +36,14 @@ public class ModFlowers {
     public static final Block POTTED_BLUE_LAVENDER = Registry.register(Registries.BLOCK, new Identifier(NaturesPrairies.MODID, "potted_blue_lavender"),
             new FlowerPotBlock(BLUE_LAVENDER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CLOVER = registerBlock("clover",
-            new FlowerBlock(StatusEffects.ABSORPTION, 5, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block CLOVES = registerBlock("clover",
+            new FlowerBlock(StatusEffects.ABSORPTION, 11, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
 
-    public static final Block POTTED_CLOVER = Registry.register(Registries.BLOCK, new Identifier(NaturesPrairies.MODID, "potted_clover"),
-            new FlowerPotBlock(CLOVER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+    public static final Block POTTED_CLOVES = Registry.register(Registries.BLOCK, new Identifier(NaturesPrairies.MODID, "potted_clover"),
+            new FlowerPotBlock(CLOVES, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
     public static final Block CROCUS = registerBlock("crocus",
-            new FlowerBlock(StatusEffects.ABSORPTION, 5, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+            new FlowerBlock(StatusEffects.ABSORPTION, 6, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
 
     public static final Block POTTED_CROCUS = Registry.register(Registries.BLOCK, new Identifier(NaturesPrairies.MODID, "potted_crocus"),
             new FlowerPotBlock(CROCUS, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
@@ -53,6 +53,12 @@ public class ModFlowers {
 
     public static final Block POTTED_PUSHKINIA = Registry.register(Registries.BLOCK, new Identifier(NaturesPrairies.MODID, "potted_pushkinia"),
             new FlowerPotBlock(PUSHKINIA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block RED_ROSE = registerBlock("red_rose",
+            new FlowerBlock(StatusEffects.HEALTH_BOOST, 9, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+
+    public static final Block POTTED_RED_ROSE = Registry.register(Registries.BLOCK, new Identifier(NaturesPrairies.MODID, "potted_red_rose"),
+            new FlowerPotBlock(RED_ROSE, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
 
 
