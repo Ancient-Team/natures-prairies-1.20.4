@@ -1,4 +1,4 @@
-// 1.20.4	2024-02-26T18:09:21.4121344	Nature's-Prairies/Recipes
+// 1.20.4	2024-02-27T20:52:10.7481218	Nature's-Prairies/Recipes
 8ab6145da0e6c75785b21217dba8e81d360bc843 data\natures-prairies\recipes\smooth_slate_slab.json
 532b01e63e08eeab49d655ffa67afbdb303d2598 data\natures-prairies\recipes\polished_slate_wall.json
 d874103b5a6eb10aaaf1e939ab94b5a825d18340 data\natures-prairies\recipes\cracked_quartz_brick_wall.json
@@ -20,6 +20,7 @@ c0cf9ebbc0641f42bf5f12c1833ca64717c6612c data\natures-prairies\advancements\reci
 bd37dc80020348635eccc2f22d2af22d96b5192f data\natures-prairies\advancements\recipes\misc\slate.json
 6c28439154082be2a5bcf4e0c9c14c2c6f963b57 data\natures-prairies\recipes\slate.json
 f652910fd6a6665dc66943d6e48eb0e78cd6a959 data\natures-prairies\recipes\quartz_brick_stairs.json
+35cb5275579a685e5affbf0d2486d2534c72d55d data\natures-prairies\recipes\orange_dye_from_cloves.json
 2a9765429018cbb0c3ddea94d32470f032c6ce63 data\natures-prairies\advancements\recipes\building_blocks\slate_brick_stairs.json
 d7c7b55e1f1f4bed1abb9abff1c6fde032a44c82 data\natures-prairies\advancements\recipes\building_blocks\small_quartz_bricks.json
 d0d9c05906acd3e3c104f0b3ab48fbad1f0f924b data\natures-prairies\advancements\recipes\building_blocks\polished_slate_stairs.json
@@ -49,7 +50,6 @@ bc267946915928239aa34459d1457a2ddcf440bf data\natures-prairies\advancements\reci
 9a1f9b15bf8a64626494cdc14fe305b99943e289 data\natures-prairies\advancements\recipes\building_blocks\slate_pillar.json
 20c1cd72462235ae986db9c3f1762e86edfe327b data\natures-prairies\recipes\cracked_small_slate_brick_stairs.json
 ebb9f73c8cebb893c05d5f222f12d622f0598106 data\natures-prairies\recipes\slate_block_stairs.json
-8ca4d4a21960a71788323ca7715ff89149747969 data\natures-prairies\recipes\orange_dye_from_clover.json
 9d4f7550ec81e5d59038917cdc2ff57b1f027c19 data\natures-prairies\recipes\slate_brick_stairs.json
 29b799c5ae0854b84afcdae75adbffe92e13d0b5 data\natures-prairies\advancements\recipes\building_blocks\slate_bricks.json
 1fcaee7741c07eba9f20b5dce4a294e331270009 data\natures-prairies\recipes\small_slate_brick_stairs.json
@@ -93,6 +93,7 @@ bf14f0b458c07f5034cfb06e9e2b27086209ba8d data\natures-prairies\advancements\reci
 e85f4d86868c4db77a7d93e58deab853cc1fc136 data\natures-prairies\recipes\light_blue_dye_from_pushkinia.json
 cd7ed959a8bb580ae06ef2cb67a70b2de1f3dd80 data\natures-prairies\advancements\recipes\building_blocks\cracked_quartz_brick_stairs.json
 7ffb638c5f9f78266438ac7c1ed1ef484a2c8c62 data\natures-prairies\advancements\recipes\misc\magenta_dye_from_lawender.json
+1892e471de0061f6e8b5a067f5daffd3f78f81af data\natures-prairies\advancements\recipes\misc\orange_dye_from_cloves.json
 7bfaba437784bad2dc092ece2d62254996005a29 data\natures-prairies\recipes\quartz_lantern.json
 3f3cf5df25ef9dc2e00244798d016c2f0e8bafa2 data\natures-prairies\recipes\slate_brick_slab.json
 462c071e5dd68b2009010ab7cf087796ca8c54c3 data\natures-prairies\recipes\polished_slate.json
@@ -103,7 +104,6 @@ eb6931ce258adbadd22e0d8470bd42ef18ff90a5 data\natures-prairies\advancements\reci
 b8b4e17bda27b89d47782ac9a19e949d11af8eb3 data\natures-prairies\advancements\recipes\decorations\slate_brick_wall.json
 8cea6f8f5414db16ac4218a5d5dce3cde66e86b4 data\natures-prairies\recipes\slate_block_slab.json
 b3cb853936af3974024d44be4e318f9015424c3d data\natures-prairies\recipes\cracked_small_slate_brick_wall.json
-05a4698b8bfafa423a23ed6bd5ec171de928de40 data\natures-prairies\advancements\recipes\misc\orange_dye_from_clover.json
 fb723108ca3d8ce5207993bfd9c0ecac926c36cd data\natures-prairies\recipes\pink_dye_from_pink_lawender.json
 2d339c514d9dd5211760bd64907afca0643506dc data\natures-prairies\advancements\recipes\misc\pink_dye_from_pink_lawender.json
 338cf43540c4f62958596beb3c960a04bba4f456 data\natures-prairies\recipes\cracked_small_quartz_brick_stairs.json

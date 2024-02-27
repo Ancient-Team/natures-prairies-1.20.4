@@ -36,7 +36,7 @@ public class ModFlowers {
     public static final Block POTTED_BLUE_LAVENDER = Registry.register(Registries.BLOCK, new Identifier(NaturesPrairies.MODID, "potted_blue_lavender"),
             new FlowerPotBlock(BLUE_LAVENDER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CLOVES = registerBlock("clover",
+    public static final Block CLOVES = registerBlock("cloves",
             new FlowerBlock(StatusEffects.ABSORPTION, 11, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
 
     public static final Block POTTED_CLOVES = Registry.register(Registries.BLOCK, new Identifier(NaturesPrairies.MODID, "potted_clover"),

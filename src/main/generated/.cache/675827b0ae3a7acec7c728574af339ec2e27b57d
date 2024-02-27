@@ -1,4 +1,4 @@
-// 1.20.4	2024-02-26T18:09:21.4186455	Nature's-Prairies/Block Loot Tables
+// 1.20.4	2024-02-27T20:52:10.7541223	Nature's-Prairies/Block Loot Tables
 63fc367784feb907ea95ec2d9384f1ac88419407 data\natures-prairies\loot_tables\blocks\cracked_small_quartz_brick_stairs.json
 638196170fa92acb262509f21daefd96c396ccb3 data\natures-prairies\loot_tables\blocks\quartz_brick_wall.json
 9df85eb21d246c0b071a4f2cf380e987f7eb33de data\natures-prairies\loot_tables\blocks\cracked_quartz_brick_stairs.json
@@ -28,7 +28,6 @@ ad32e11576c2e9e4f1d6a429102b17638c20f59e data\natures-prairies\loot_tables\block
 bc76425a01317ece6e67c98c5b51d0d6716aaeb8 data\natures-prairies\loot_tables\blocks\slate_brick_wall.json
 f5e36f2eb51b616bcce08f38671a7197b9922712 data\natures-prairies\loot_tables\blocks\cracked_small_quartz_bricks.json
 99fb32baa11274f7f476886fbee8ec4e20bec633 data\natures-prairies\loot_tables\blocks\crocus.json
-febb2a970683f6bfed245527cdb8b8eba1e766ba data\natures-prairies\loot_tables\blocks\clover.json
 df8217bdc1133e1c38d8d44d5f71366f41f897a2 data\natures-prairies\loot_tables\blocks\slate_lantern.json
 9e3cabd9824f5fa4153f198f3ed49e83c7f2b4c3 data\natures-prairies\loot_tables\blocks\potted_pushkinia.json
 68bd684b726554bb8b39cefe3a7352ffb87da4ef data\natures-prairies\loot_tables\blocks\cracked_slate_brick_slab.json
@@ -41,8 +40,9 @@ f228ebf6b64fde7caf12056b3834b356d5af0fb1 data\natures-prairies\loot_tables\block
 77b9409a72e8db02533159afec705684ebee5bc2 data\natures-prairies\loot_tables\blocks\polished_slate_stairs.json
 c3c9070a2812af6412c40dfb64ccbd9ae3579398 data\natures-prairies\loot_tables\blocks\slate_ore.json
 a108402bfb2211bcfa5d336ce47e663b99c58080 data\natures-prairies\loot_tables\blocks\potted_red_rose.json
-787c008770d40be52be431b43e5fdda05cbc6049 data\natures-prairies\loot_tables\blocks\potted_clover.json
+c1ef94aec1c9fde1f268ff6870b9099e155aeb0f data\natures-prairies\loot_tables\blocks\potted_clover.json
 2fd6d949f4b4e95d6e1c98d704897469e5c03711 data\natures-prairies\loot_tables\blocks\polished_quartz_wall.json
+649465b24bc73b51ff0bc7764232ea69626b23eb data\natures-prairies\loot_tables\blocks\cloves.json
 65965f37e9fc889dd8c92915fc9cb2d1aafa54e3 data\natures-prairies\loot_tables\blocks\small_slate_brick_stairs.json
 c4ec768e57585ed4d51a161427a34d35779a047f data\natures-prairies\loot_tables\blocks\cracked_quartz_bricks.json
 9bce2e6e4c579568b39fa37ff3ad034a11aa3473 data\natures-prairies\loot_tables\blocks\small_quartz_brick_slab.json

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_clover": {
+    "has_cloves": {
       "conditions": {
         "items": [
           {
             "items": [
-              "natures-prairies:clover"
+              "natures-prairies:cloves"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:orange_dye_from_clover"
+        "recipe": "minecraft:orange_dye_from_cloves"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_clover"
+      "has_cloves"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:orange_dye_from_clover"
+      "minecraft:orange_dye_from_cloves"
     ]
   }
 }
