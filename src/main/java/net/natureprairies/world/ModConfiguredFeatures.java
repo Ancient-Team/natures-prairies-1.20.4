@@ -14,8 +14,8 @@ import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.stateprovider.NoiseBlockStateProvider;
 import net.natureprairies.NaturesPrairies;
-import net.natureprairies.block.ModFlowers;
-import net.natureprairies.block.SlateBlocks;
+import net.natureprairies.block.Flowers;
+import net.natureprairies.block.Slate;
 
 import java.util.List;
 
@@ -38,8 +38,8 @@ public class ModConfiguredFeatures {
 
 
         List<OreFeatureConfig.Target> slatePatch =
-                List.of(OreFeatureConfig.createTarget(stoneReplacables, SlateBlocks.SLATE_ORE.getDefaultState()),
-                        OreFeatureConfig.createTarget(deepslateReplacables, SlateBlocks.SLATE_ORE.getDefaultState()));
+                List.of(OreFeatureConfig.createTarget(stoneReplacables, Slate.DEEPSLATE_SLATE_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplacables, Slate.DEEPSLATE_SLATE_ORE.getDefaultState()));
 
         //List<OreFeatureConfig.Target> quartzPatch =
                 //List.of(OreFeatureConfig.createTarget(netherReplacables, Blocks.QUARTZ_BLOCK.getDefaultState()));
@@ -49,16 +49,16 @@ public class ModConfiguredFeatures {
 
 
         register(context, PUSHKINIA_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModFlowers.PUSHKINIA)))));
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(Flowers.PUSHKINIA)))));
 
         register(context, CROCUS_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModFlowers.CROCUS)))));
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(Flowers.CROCUS)))));
 
         register(context, CLOVES_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModFlowers.CLOVES)))));
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(Flowers.CLOVES)))));
 
         register(context, RED_ROSE_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModFlowers.RED_ROSE)))));
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(Flowers.RED_ROSE)))));
 
         register(context,
                 FLOWER_LAWENDER_FIELDS_KEY,
@@ -71,9 +71,9 @@ public class ModConfiguredFeatures {
                                 new DoublePerlinNoiseSampler.NoiseParameters(12, 40.0D),
                                 38.08333340F,
                                  List.of(
-                                         ModFlowers.LAWENDER.getDefaultState(),
-                                         ModFlowers.BLUE_LAVENDER.getDefaultState(),
-                                         ModFlowers.PINK_LAWENDER.getDefaultState()
+                                         Flowers.LAWENDER.getDefaultState(),
+                                         Flowers.BLUE_LAVENDER.getDefaultState(),
+                                         Flowers.PINK_LAWENDER.getDefaultState()
                                  )
                         ))
                 )

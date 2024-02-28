@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "natures-prairies:slate_ore"
+          "Name": "natures-prairies:deepslate_slate_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
@@ -15,7 +15,7 @@
       },
       {
         "state": {
-          "Name": "natures-prairies:slate_ore"
+          "Name": "natures-prairies:deepslate_slate_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

@@ -3,16 +3,16 @@ package net.natureprairies.world.biome.surface;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.world.gen.surfacebuilder.MaterialRules;
-import net.natureprairies.block.ModFlowers;
+import net.natureprairies.block.Flowers;
 import net.natureprairies.world.biome.Modbiomes;
 
 public class ModMaterialRules {
     private static final MaterialRules.MaterialRule DIRT = makeStateRule(Blocks.DIRT);
     private static final MaterialRules.MaterialRule GRASS_BLOCK = makeStateRule(Blocks.GRASS_BLOCK);
-    private static final MaterialRules.MaterialRule LAVENDER = makeStateRule(ModFlowers.LAWENDER);
-    private static final MaterialRules.MaterialRule BLUE_LAVENDER = makeStateRule(ModFlowers.BLUE_LAVENDER);
+    private static final MaterialRules.MaterialRule LAVENDER = makeStateRule(Flowers.LAWENDER);
+    private static final MaterialRules.MaterialRule BLUE_LAVENDER = makeStateRule(Flowers.BLUE_LAVENDER);
 
-    private static final MaterialRules.MaterialRule PINK_LAVENDER = makeStateRule(ModFlowers.PINK_LAWENDER);
+    private static final MaterialRules.MaterialRule PINK_LAVENDER = makeStateRule(Flowers.PINK_LAWENDER);
 
     public static MaterialRules.MaterialRule makeRules() {
         MaterialRules.MaterialCondition isAtOrAboveWaterLevel = MaterialRules.water(-1, 0);

@@ -1,7 +1,7 @@
-// 1.20.4	2024-02-27T20:52:10.7521222	Nature's-Prairies/Tags for minecraft:block
+// 1.20.4	2024-02-28T21:06:05.6560351	Nature's-Prairies/Tags for minecraft:block
 20e441003e63bb74dc4246f883b01525ee79aa12 data\minecraft\tags\blocks\flowers.json
-05ffe89a5f733b7f5870874c76ab74ab7e1939cb data\minecraft\tags\blocks\mineable\pickaxe.json
-7f1cde4a32b090a1baf7177237d2ab2df3c94282 data\minecraft\tags\blocks\dirt.json
-f5a4bf7f7e5a6c4ee196a55e6af8f6d1d646e131 data\minecraft\tags\blocks\walls.json
-4403b48bd1cb325f710cc4658b60e673166e6e02 data\minecraft\tags\blocks\needs_iron_tool.json
+3e4b3b544d681d125421970870f1c4dd74250064 data\minecraft\tags\blocks\mineable\pickaxe.json
+71f9144501dd57ddc2bc4d705d1753946c2d2176 data\minecraft\tags\blocks\dirt.json
+4da665092be5fc2e98ae04a18d0cce438a3196df data\minecraft\tags\blocks\walls.json
+3e4b3b544d681d125421970870f1c4dd74250064 data\minecraft\tags\blocks\needs_iron_tool.json
 20e441003e63bb74dc4246f883b01525ee79aa12 data\minecraft\tags\blocks\small_flowers.json

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "natures-prairies:block/cracked_quartz_bricks",
-    "side": "natures-prairies:block/cracked_quartz_bricks",
-    "top": "natures-prairies:block/cracked_quartz_bricks"
-  }
-}

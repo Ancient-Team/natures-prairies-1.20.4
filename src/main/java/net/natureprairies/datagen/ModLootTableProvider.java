@@ -14,8 +14,9 @@ import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
-import net.natureprairies.block.ModFlowers;
-import net.natureprairies.block.SlateBlocks;
+import net.natureprairies.block.Flowers;
+import net.natureprairies.block.Quartz;
+import net.natureprairies.block.Slate;
 import net.natureprairies.item.ModItems;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
@@ -25,110 +26,81 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(SlateBlocks.SLATE_BLOCK);
-        addDrop(SlateBlocks.SLATE_BLOCK_STAIRS);
-        addDrop(SlateBlocks.SLATE_BLOCK_SLAB);
-        addDrop(SlateBlocks.SLATE_BLOCK_WALL);
+        addDrop(Slate.SLATE_BLOCK);
+        addDrop(Slate.SLATE_BLOCK_STAIRS);
+        addDrop(Slate.SLATE_BLOCK_SLAB);
+        addDrop(Slate.SLATE_BLOCK_WALL);
 
-        addDrop(SlateBlocks.QUARTZ_BLOCK_WALL);
+        addDrop(Quartz.QUARTZ_BLOCK_WALL);
 
-        //addDrop(SlateBlocks.COBBLED_SLATE);
-        //addDrop(SlateBlocks.COBBLED_SLATE_STAIRS);
-        //addDrop(SlateBlocks.COBBLED_SLATE_SLAB);
+        addDrop(Slate.SMOOTH_SLATE);
+        addDrop(Slate.SMOOTH_SLATE_STAIRS);
+        addDrop(Slate.SMOOTH_SLATE_SLAB);
+        addDrop(Slate.SMOOTH_SLATE_WALL);
 
-        addDrop(SlateBlocks.SMOOTH_SLATE);
-        addDrop(SlateBlocks.SMOOTH_SLATE_STAIRS);
-        addDrop(SlateBlocks.SMOOTH_SLATE_SLAB);
-        addDrop(SlateBlocks.SMOOTH_SLATE_WALL);
+        addDrop(Quartz.SMOOTH_QUARTZ_WALL);
 
-        addDrop(SlateBlocks.SMOOTH_QUARTZ_WALL);
+        addDrop(Slate.POLISHED_SLATE);
+        addDrop(Slate.POLISHED_SLATE_STAIRS);
+        addDrop(Slate.POLISHED_SLATE_SLAB);
+        addDrop(Slate.POLISHED_SLATE_WALL);
 
-        addDrop(SlateBlocks.POLISHED_SLATE);
-        addDrop(SlateBlocks.POLISHED_SLATE_STAIRS);
-        addDrop(SlateBlocks.POLISHED_SLATE_SLAB);
-        addDrop(SlateBlocks.POLISHED_SLATE_WALL);
+        addDrop(Slate.SLATE_BRICKS);
+        addDrop(Slate.SLATE_BRICK_STAIRS);
+        addDrop(Slate.SLATE_BRICK_SLAB);
+        addDrop(Slate.SLATE_BRICK_WALL);
+        addDrop(Slate.CRACKED_SLATE_BRICKS);
 
-        addDrop(SlateBlocks.SLATE_BRICKS);
-        addDrop(SlateBlocks.SLATE_BRICK_STAIRS);
-        addDrop(SlateBlocks.SLATE_BRICK_SLAB);
-        addDrop(SlateBlocks.SLATE_BRICK_WALL);
-        addDrop(SlateBlocks.CRACKED_SLATE_BRICKS);
-        addDrop(SlateBlocks.CRACKED_SLATE_BRICK_STAIRS);
-        addDrop(SlateBlocks.CRACKED_SLATE_BRICK_SLAB);
-        addDrop(SlateBlocks.CRACKED_SLATE_BRICK_WALL);
+        addDrop(Slate.SMALL_SLATE_BRICKS);
+        addDrop(Slate.SMALL_SLATE_BRICK_STAIRS);
+        addDrop(Slate.SMALL_SLATE_BRICK_SLAB);
+        addDrop(Slate.SMALL_SLATE_BRICK_WALL);
+        addDrop(Slate.CRACKED_SMALL_SLATE_BRICKS);
 
+        addDrop(Slate.SLATE_PILLAR);
+        addDrop(Slate.SLATE_TILES);
+        addDrop(Slate.CHISELED_SLATE);
 
-        addDrop(SlateBlocks.SMALL_SLATE_BRICKS);
-        addDrop(SlateBlocks.SMALL_SLATE_BRICK_STAIRS);
-        addDrop(SlateBlocks.SMALL_SLATE_BRICK_SLAB);
-        addDrop(SlateBlocks.SMALL_SLATE_BRICK_WALL);
-        addDrop(SlateBlocks.CRACKED_SMALL_SLATE_BRICKS);
-        addDrop(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_STAIRS);
-        addDrop(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_SLAB);
-        addDrop(SlateBlocks.CRACKED_SMALL_SLATE_BRICK_WALL);
+        addDrop(Quartz.POLISHED_QUARTZ);
+        addDrop(Quartz.POLISHED_QUARTZ_STAIRS);
+        addDrop(Quartz.POLISHED_QUARTZ_SLAB);
+        addDrop(Quartz.POLISHED_QUARTZ_WALL);
 
-        addDrop(SlateBlocks.SLATE_PILLAR);
-        addDrop(SlateBlocks.SLATE_TILES);
-        addDrop(SlateBlocks.CHISELED_SLATE);
+        addDrop(Quartz.QUARTZ_BRICK_STAIRS);
+        addDrop(Quartz.QUARTZ_BRICK_SLAB);
+        addDrop(Quartz.QUARTZ_BRICK_WALL);
+        addDrop(Quartz.CRACKED_QUARTZ_BRICKS);
 
-        //addDrop(SlateBlocks.COBBLED_QUARTZ);
-        //addDrop(SlateBlocks.COBBLED_QUARTZ_STAIRS);
-        //addDrop(SlateBlocks.COBBLED_QUARTZ_SLAB);
+        addDrop(Quartz.SMALL_QUARTZ_BRICKS);
+        addDrop(Quartz.SMALL_QUARTZ_BRICK_STAIRS);
+        addDrop(Quartz.SMALL_QUARTZ_BRICK_SLAB);
+        addDrop(Quartz.SMALL_QUARTZ_BRICK_WALL);
+        addDrop(Quartz.CRACKED_SMALL_QUARTZ_BRICKS);
 
-        //addDrop(Blocks.SMOOTH_QUARTZ);
-        //addDrop(Blocks.SMOOTH_QUARTZ_STAIRS);
-        //addDrop(Blocks.SMOOTH_QUARTZ_SLAB);
+        addDrop(Quartz.QUARTZ_TILES);
 
-        addDrop(SlateBlocks.POLISHED_QUARTZ);
-        addDrop(SlateBlocks.POLISHED_QUARTZ_STAIRS);
-        addDrop(SlateBlocks.POLISHED_QUARTZ_SLAB);
-        addDrop(SlateBlocks.POLISHED_QUARTZ_WALL);
+        addDrop(Slate.SLATE_LANTERN);
+        addDrop(Quartz.QUARTZ_LANTERN);
 
-        //addDrop(Blocks.QUARTZ_BRICKS);
-        addDrop(SlateBlocks.QUARTZ_BRICK_STAIRS);
-        addDrop(SlateBlocks.QUARTZ_BRICK_SLAB);
-        addDrop(SlateBlocks.QUARTZ_BRICK_WALL);
+        addDrop(Slate.OVERGROWN_SLATE, dropsWithSilkTouch(Slate.OVERGROWN_SLATE, ItemEntry.builder(Slate.SLATE_BLOCK)));
+        addDrop(Quartz.OVERGROWN_QUARTZ, dropsWithSilkTouch(Quartz.OVERGROWN_QUARTZ, ItemEntry.builder(Blocks.QUARTZ_BLOCK)));
 
-        addDrop(SlateBlocks.CRACKED_QUARTZ_BRICKS);
-        addDrop(SlateBlocks.CRACKED_QUARTZ_BRICK_STAIRS);
-        addDrop(SlateBlocks.CRACKED_QUARTZ_BRICK_SLAB);
-        addDrop(SlateBlocks.CRACKED_QUARTZ_BRICK_WALL);
+        addDrop(Flowers.LAWENDER);
+        addDrop(Flowers.PINK_LAWENDER);
+        addDrop(Flowers.BLUE_LAVENDER);
+        addDrop(Flowers.CLOVES);
+        addDrop(Flowers.CROCUS);
+        addDrop(Flowers.PUSHKINIA);
+        addDrop(Flowers.RED_ROSE);
+        addPottedPlantDrops(Flowers.POTTED_LAWENDER);
+        addPottedPlantDrops(Flowers.POTTED_PINK_LAWENDER);
+        addPottedPlantDrops(Flowers.POTTED_BLUE_LAVENDER);
+        addPottedPlantDrops(Flowers.POTTED_CLOVES);
+        addPottedPlantDrops(Flowers.POTTED_CROCUS);
+        addPottedPlantDrops(Flowers.POTTED_PUSHKINIA);
+        addPottedPlantDrops(Flowers.POTTED_RED_ROSE);
 
-        addDrop(SlateBlocks.SMALL_QUARTZ_BRICKS);
-        addDrop(SlateBlocks.SMALL_QUARTZ_BRICK_STAIRS);
-        addDrop(SlateBlocks.SMALL_QUARTZ_BRICK_SLAB);
-        addDrop(SlateBlocks.SMALL_QUARTZ_BRICK_WALL);
-
-        addDrop(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICKS);
-        addDrop(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_STAIRS);
-        addDrop(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_SLAB);
-        addDrop(SlateBlocks.CRACKED_SMALL_QUARTZ_BRICK_WALL);
-
-        addDrop(SlateBlocks.QUARTZ_TILES);
-        //addDrop(Blocks.CHISELED_QUARTZ_BLOCK);
-        //addDrop(Blocks.QUARTZ_PILLAR);
-
-        addDrop(SlateBlocks.SLATE_LANTERN);
-        addDrop(SlateBlocks.QUARTZ_LANTERN);
-
-        addDrop(SlateBlocks.OVERGROWN_SLATE, dropsWithSilkTouch(SlateBlocks.OVERGROWN_SLATE, ItemEntry.builder(SlateBlocks.SLATE_BLOCK)));
-
-        addDrop(ModFlowers.LAWENDER);
-        addDrop(ModFlowers.PINK_LAWENDER);
-        addDrop(ModFlowers.BLUE_LAVENDER);
-        addDrop(ModFlowers.CLOVES);
-        addDrop(ModFlowers.CROCUS);
-        addDrop(ModFlowers.PUSHKINIA);
-        addDrop(ModFlowers.RED_ROSE);
-        addPottedPlantDrops(ModFlowers.POTTED_LAWENDER);
-        addPottedPlantDrops(ModFlowers.POTTED_PINK_LAWENDER);
-        addPottedPlantDrops(ModFlowers.POTTED_BLUE_LAVENDER);
-        addPottedPlantDrops(ModFlowers.POTTED_CLOVES);
-        addPottedPlantDrops(ModFlowers.POTTED_CROCUS);
-        addPottedPlantDrops(ModFlowers.POTTED_PUSHKINIA);
-        addPottedPlantDrops(ModFlowers.POTTED_RED_ROSE);
-
-        addDrop(SlateBlocks.SLATE_ORE, copperLikeOreDrops(SlateBlocks.SLATE_ORE, ModItems.SLATE));
+        addDrop(Slate.DEEPSLATE_SLATE_ORE, copperLikeOreDrops(Slate.DEEPSLATE_SLATE_ORE, ModItems.SLATE));
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {

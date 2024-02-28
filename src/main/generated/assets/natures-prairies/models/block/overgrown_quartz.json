@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/quartz_block",
+    "particle": "minecraft:block/quartz_block",
+    "side": "natures-prairies:block/overgrown_quartz_side",
+    "top": "natures-prairies:block/overgrown_quartz_top"
+  }
+}

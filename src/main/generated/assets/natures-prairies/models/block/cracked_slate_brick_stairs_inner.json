@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "natures-prairies:block/cracked_slate_bricks",
-    "side": "natures-prairies:block/cracked_slate_bricks",
-    "top": "natures-prairies:block/cracked_slate_bricks"
-  }
-}

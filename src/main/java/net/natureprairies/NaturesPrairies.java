@@ -2,10 +2,8 @@ package net.natureprairies;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.natureprairies.block.ModBlocks;
-import net.natureprairies.block.ModFlowers;
-import net.natureprairies.block.SlateBlocks;
-import net.natureprairies.item.ModItemGroups;
+import net.natureprairies.block.*;
+import net.natureprairies.item.ItemGroups;
 import net.natureprairies.item.ModItems;
 import net.natureprairies.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
@@ -21,12 +19,18 @@ public class NaturesPrairies implements ModInitializer
 	{
 		LOGGER.info("Natures Prairies is initializing!");
 
-		ModItemGroups.registerItemGroups();
-		ModBlocks.registerModBlocks();
-		ModFlowers.registerModBlocks();
-		SlateBlocks.registerModBlocks();
+
+
 		ModWorldGeneration.generateModWorldGen();
 		ModItems.registerModItems();
+
+		ItemGroups.registerItemGroupsModule();
+
+		Slate.registerSlateModule();
+		Quartz.registerQuartzModule();
+		Strata.registerStrataModule();
+		Ceramic.registerCeramicModule();
+		Flowers.registerFlowersModule();
 	}
 
 

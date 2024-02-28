@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "natures-prairies:overgrown_slate"
+    "natures-prairies:overgrown_slate",
+    "natures-prairies:overgrown_quartz"
   ]
 }

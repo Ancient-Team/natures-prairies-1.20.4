@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_slate_block": {
+    "has_quartz_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "natures-prairies:slate_block"
+              "minecraft:quartz_block"
             ]
           }
         ]
@@ -23,7 +23,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_slate_block"
+      "has_quartz_block"
     ]
   ],
   "rewards": {

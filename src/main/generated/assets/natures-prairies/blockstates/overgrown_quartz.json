@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "natures-prairies:block/overgrown_quartz"
+      },
+      {
+        "model": "natures-prairies:block/overgrown_quartz",
+        "y": 90
+      },
+      {
+        "model": "natures-prairies:block/overgrown_quartz",
+        "y": 180
+      },
+      {
+        "model": "natures-prairies:block/overgrown_quartz",
+        "y": 270
+      }
+    ]
+  }
+}
