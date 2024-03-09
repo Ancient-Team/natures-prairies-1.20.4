@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.*;
 import net.minecraft.util.Identifier;
+import net.natureprairies.block.Ceramic;
 import net.natureprairies.block.Flowers;
 import net.natureprairies.block.Quartz;
 import net.natureprairies.block.Slate;
@@ -106,12 +107,22 @@ public class ModModelProvider extends FabricModelProvider {
         smallQuartzBrickPool.stairs(Quartz.SMALL_QUARTZ_BRICK_STAIRS);
         smallQuartzBrickPool.wall(Quartz.SMALL_QUARTZ_BRICK_WALL);
 
+        //Ceramic
+
+        blockStateModelGenerator.registerSimpleCubeAll(Ceramic.CERAMIC_BLEND);
+        blockStateModelGenerator.registerSimpleCubeAll(Ceramic.CERAMIC_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool ceramicShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Ceramic.CERAMIC_SHINGLES);
+        ceramicShinglesPool.slab(Ceramic.CERAMIC_SHINGLES_SLAB);
+        ceramicShinglesPool.stairs(Ceramic.CERAMIC_SHINGLES_STAIRS);
+
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
         itemModelGenerator.register(ModItems.SLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CERAMIC_BLEND_LUMP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CERAMIC_LUMP, Models.GENERATED);
 
     }
 }

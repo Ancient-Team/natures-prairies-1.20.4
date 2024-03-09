@@ -46,6 +46,10 @@
     "natures-prairies:small_quartz_brick_wall",
     "natures-prairies:quartz_tiles",
     "natures-prairies:quartz_lantern",
-    "natures-prairies:overgrown_quartz"
+    "natures-prairies:overgrown_quartz",
+    "natures-prairies:ceramic_block",
+    "natures-prairies:ceramic_shingles",
+    "natures-prairies:ceramic_shingles_slab",
+    "natures-prairies:ceramic_shingles_stairs"
   ]
 }

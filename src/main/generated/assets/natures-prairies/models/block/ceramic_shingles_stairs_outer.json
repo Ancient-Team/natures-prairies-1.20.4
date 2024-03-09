@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "natures-prairies:block/ceramic_shingles",
+    "side": "natures-prairies:block/ceramic_shingles",
+    "top": "natures-prairies:block/ceramic_shingles"
+  }
+}

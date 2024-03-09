@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:noise_provider",
+            "noise": {
+              "amplitudes": [
+                40.0
+              ],
+              "firstOctave": 12
+            },
+            "scale": 38.083332,
+            "seed": 1745,
+            "states": [
+              {
+                "Name": "natures-prairies:lawender"
+              },
+              {
+                "Name": "natures-prairies:blue_lavender"
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 20,
+    "xz_spread": 12,
+    "y_spread": 4
+  }
+}

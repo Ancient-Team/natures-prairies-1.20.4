@@ -14,13 +14,10 @@
               "firstOctave": 12
             },
             "scale": 38.083332,
-            "seed": 1645,
+            "seed": 1745,
             "states": [
               {
                 "Name": "natures-prairies:lawender"
-              },
-              {
-                "Name": "natures-prairies:blue_lavender"
               },
               {
                 "Name": "natures-prairies:pink_lawender"

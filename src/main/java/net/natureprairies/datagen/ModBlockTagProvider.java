@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.natureprairies.block.Ceramic;
 import net.natureprairies.block.Flowers;
 import net.natureprairies.block.Quartz;
 import net.natureprairies.block.Slate;
@@ -95,7 +96,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
                 .add(Quartz.QUARTZ_LANTERN)
 
-                .add(Quartz.OVERGROWN_QUARTZ);
+                .add(Quartz.OVERGROWN_QUARTZ)
+
+                .add(Ceramic.CERAMIC_BLOCK)
+                .add(Ceramic.CERAMIC_SHINGLES)
+                .add(Ceramic.CERAMIC_SHINGLES_SLAB)
+                .add(Ceramic.CERAMIC_SHINGLES_STAIRS);
+
+        getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+                .add(Ceramic.CERAMIC_BLEND);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(Ceramic.CERAMIC_BLOCK)
+                .add(Ceramic.CERAMIC_SHINGLES)
+                .add(Ceramic.CERAMIC_SHINGLES_SLAB)
+                .add(Ceramic.CERAMIC_SHINGLES_STAIRS)
+                .add(Ceramic.CERAMIC_BLEND);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(Slate.DEEPSLATE_SLATE_ORE)
@@ -208,6 +224,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(Flowers.CROCUS)
                 .add(Flowers.PUSHKINIA)
                 .add(Flowers.RED_ROSE);
+
+        getOrCreateTagBuilder(BlockTags.FLOWER_POTS)
+                .add(Ceramic.CERAMIC_POT_GREEK)
+                .add(Ceramic.CERAMIC_POT_EGYPTIAN)
+                .add(Ceramic.CERAMIC_POT_ROMAN)
+                .add(Ceramic.CERAMIC_POT_JAPANESE)
+                .add(Ceramic.CERAMIC_POT_AZTEC)
+                .add(Ceramic.CERAMIC_POT_NORDIC)
+                .add(Ceramic.CERAMIC_POT_SLAVIC);
 
         //getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
 

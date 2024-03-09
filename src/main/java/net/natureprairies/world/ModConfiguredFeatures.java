@@ -1,7 +1,5 @@
 package net.natureprairies.world;
 
-import net.minecraft.block.Blocks;
-import net.minecraft.block.FlowerBlock;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -23,7 +21,11 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> SLATE_KEY = registerKey("slate_patch");
     //public static final RegistryKey<ConfiguredFeature<?, ?>> QUARTZ_KEY = registerKey("quartz_patch");
 
-    public static final RegistryKey<ConfiguredFeature<?, ?>> FLOWER_LAWENDER_FIELDS_KEY = registerKey("lavender_fields_key");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> HIGHLANDS_FLOWER_LAWENDER_FIELDS_KEY = registerKey("highlands_lavender_fields_key");
+
+    public static final RegistryKey<ConfiguredFeature<?, ?>> FLOWER_LAWENDER_FIELDS_KEY = registerKey("flower_lavender_fields_key");
+
+
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> PUSHKINIA_KEY = registerKey("pushkinia_patch");
     public static final RegistryKey<ConfiguredFeature<?, ?>> CROCUS_KEY = registerKey("crocus_patch");
@@ -61,25 +63,41 @@ public class ModConfiguredFeatures {
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(Flowers.RED_ROSE)))));
 
         register(context,
-                FLOWER_LAWENDER_FIELDS_KEY,
+                HIGHLANDS_FLOWER_LAWENDER_FIELDS_KEY,
                 Feature.FLOWER,
                 new RandomPatchFeatureConfig(20,
                 12,
                 4,
                 PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                        new SimpleBlockFeatureConfig(new NoiseBlockStateProvider(1645L,
+                        new SimpleBlockFeatureConfig(new NoiseBlockStateProvider(1745L,
                                 new DoublePerlinNoiseSampler.NoiseParameters(12, 40.0D),
                                 38.08333340F,
                                  List.of(
                                          Flowers.LAWENDER.getDefaultState(),
-                                         Flowers.BLUE_LAVENDER.getDefaultState(),
-                                         Flowers.PINK_LAWENDER.getDefaultState()
+                                         Flowers.BLUE_LAVENDER.getDefaultState()
                                  )
                         ))
                 )
                 )
         );
-
+        register(context,
+                FLOWER_LAWENDER_FIELDS_KEY,
+                Feature.FLOWER,
+                new RandomPatchFeatureConfig(20,
+                        12,
+                        4,
+                        PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                                new SimpleBlockFeatureConfig(new NoiseBlockStateProvider(1745L,
+                                        new DoublePerlinNoiseSampler.NoiseParameters(12, 40.0D),
+                                        38.08333340F,
+                                        List.of(
+                                                Flowers.LAWENDER.getDefaultState(),
+                                                Flowers.PINK_LAWENDER.getDefaultState()
+                                        )
+                                ))
+                        )
+                )
+        );
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

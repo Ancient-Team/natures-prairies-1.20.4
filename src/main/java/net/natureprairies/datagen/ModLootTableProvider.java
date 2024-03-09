@@ -14,6 +14,7 @@ import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.natureprairies.block.Ceramic;
 import net.natureprairies.block.Flowers;
 import net.natureprairies.block.Quartz;
 import net.natureprairies.block.Slate;
@@ -85,6 +86,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(Slate.OVERGROWN_SLATE, dropsWithSilkTouch(Slate.OVERGROWN_SLATE, ItemEntry.builder(Slate.SLATE_BLOCK)));
         addDrop(Quartz.OVERGROWN_QUARTZ, dropsWithSilkTouch(Quartz.OVERGROWN_QUARTZ, ItemEntry.builder(Blocks.QUARTZ_BLOCK)));
 
+        //Ceramic
+
+        addDrop(Ceramic.CERAMIC_BLEND);
+        addDrop(Ceramic.CERAMIC_BLOCK);
+        addDrop(Ceramic.CERAMIC_SHINGLES);
+        addDrop(Ceramic.CERAMIC_SHINGLES_STAIRS);
+        addDrop(Ceramic.CERAMIC_SHINGLES_SLAB);
+
+        //Ceramic Pots
+
+        addDrop(Ceramic.CERAMIC_POT_GREEK);
+        addDrop(Ceramic.CERAMIC_POT_EGYPTIAN);
+        addDrop(Ceramic.CERAMIC_POT_ROMAN);
+        addDrop(Ceramic.CERAMIC_POT_JAPANESE);
+        addDrop(Ceramic.CERAMIC_POT_AZTEC);
+        addDrop(Ceramic.CERAMIC_POT_NORDIC);
+        addDrop(Ceramic.CERAMIC_POT_SLAVIC);
+
+        //Flowers
+
         addDrop(Flowers.LAWENDER);
         addDrop(Flowers.PINK_LAWENDER);
         addDrop(Flowers.BLUE_LAVENDER);
@@ -100,16 +121,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addPottedPlantDrops(Flowers.POTTED_PUSHKINIA);
         addPottedPlantDrops(Flowers.POTTED_RED_ROSE);
 
-        addDrop(Slate.DEEPSLATE_SLATE_ORE, copperLikeOreDrops(Slate.DEEPSLATE_SLATE_ORE, ModItems.SLATE));
+        //Ores
+
+        addDrop(Slate.DEEPSLATE_SLATE_ORE, MultiOreDrops(Slate.DEEPSLATE_SLATE_ORE, ModItems.SLATE));
     }
 
-    public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {
+    public LootTable.Builder MultiOreDrops(Block drop, Item item) {
         return BlockLootTableGenerator.dropsWithSilkTouch(drop, (LootPoolEntry.Builder)this.applyExplosionDecay(drop,
                 ((LeafEntry.Builder)
                         ItemEntry.builder(item)
                                 .apply(SetCountLootFunction
                                         .builder(UniformLootNumberProvider
-                                                .create(2.0f, 7.0f))))
+                                                .create(5.0f, 14.0f))))
                         .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
     }
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "natures-prairies:block/ceramic_shingles_slab"
+    },
+    "type=double": {
+      "model": "natures-prairies:block/ceramic_shingles"
+    },
+    "type=top": {
+      "model": "natures-prairies:block/ceramic_shingles_slab_top"
+    }
+  }
+}

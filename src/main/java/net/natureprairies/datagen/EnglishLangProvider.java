@@ -2,6 +2,7 @@ package net.natureprairies.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
+import net.natureprairies.block.Ceramic;
 import net.natureprairies.block.Flowers;
 import net.natureprairies.block.Quartz;
 import net.natureprairies.block.Slate;
@@ -88,6 +89,30 @@ public class EnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(Slate.OVERGROWN_SLATE, "Overgrown Slate NO");
         translationBuilder.add(Quartz.OVERGROWN_QUARTZ, "Overgrown Quartz NO");
 
+        translationBuilder.add(ModItems.SLATE, "Slate");
+
+        //Ceramic
+
+        translationBuilder.add(Ceramic.CERAMIC_BLEND, "Ceramic Blend");
+        translationBuilder.add(Ceramic.CERAMIC_BLOCK, "Ceramic Block");
+        translationBuilder.add(Ceramic.CERAMIC_SHINGLES, "Ceramic Shingles");
+        translationBuilder.add(Ceramic.CERAMIC_SHINGLES_SLAB, "Ceramic Shingles Slab");
+        translationBuilder.add(Ceramic.CERAMIC_SHINGLES_STAIRS, "Ceramic Shingles Stairs");
+
+        //Ceramic Pots
+
+        translationBuilder.add(Ceramic.CERAMIC_POT_GREEK, "Ceramic Pot Greek");
+        translationBuilder.add(Ceramic.CERAMIC_POT_EGYPTIAN, "Ceramic Pot Egyptian");
+        translationBuilder.add(Ceramic.CERAMIC_POT_ROMAN, "Ceramic Pot Roman");
+        translationBuilder.add(Ceramic.CERAMIC_POT_JAPANESE, "Ceramic Pot Japanese");
+        translationBuilder.add(Ceramic.CERAMIC_POT_AZTEC, "Ceramic Pot Aztec");
+        translationBuilder.add(Ceramic.CERAMIC_POT_NORDIC, "Ceramic Pot Nordic");
+
+        translationBuilder.add(ModItems.CERAMIC_BLEND_LUMP, "Ceramic Blend Lump");
+        translationBuilder.add(ModItems.CERAMIC_LUMP, "Ceramic Lump");
+
+        //Flowers
+
         translationBuilder.add(Flowers.LAWENDER, "Lawender");
         translationBuilder.add(Flowers.PINK_LAWENDER, "Pink Lawender");
         translationBuilder.add(Flowers.BLUE_LAVENDER, "Blue Lavender");
@@ -96,7 +121,7 @@ public class EnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(Flowers.PUSHKINIA, "Pushkinia");
         translationBuilder.add(Flowers.RED_ROSE, "Red Rose");
 
-        translationBuilder.add(ModItems.SLATE, "Slate");
+        //Item Groups
 
         translationBuilder.add("itemgroup.natureprairies", "Nature's Prairies");
         translationBuilder.add("itemgroup.natureprairiesfoliage", "Nature's Prairies Foliage");

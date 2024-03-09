@@ -13,9 +13,11 @@ import net.natureprairies.NaturesPrairies;
 public class ModItems {
     public static final Item SLATE = registerItem("slate", new Item(new FabricItemSettings()));
 
+    public static final Item CERAMIC_BLEND_LUMP = registerItem("ceramic_blend_lump", new Item(new FabricItemSettings()));
+
+    public static final Item CERAMIC_LUMP = registerItem("ceramic_lump", new Item(new FabricItemSettings()));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        //entries.add(RUBY);
-        //entries.add(RAW_RUBY);
     }
 
     private static Item registerItem(String name, Item item) {

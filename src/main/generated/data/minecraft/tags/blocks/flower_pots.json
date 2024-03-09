@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "natures-prairies:ceramic_pot_greek",
+    "natures-prairies:ceramic_pot_egyptian",
+    "natures-prairies:ceramic_pot_roman",
+    "natures-prairies:ceramic_pot_japanese",
+    "natures-prairies:ceramic_pot_aztec",
+    "natures-prairies:ceramic_pot_nordic",
+    "natures-prairies:ceramic_pot_slavic"
+  ]
+}

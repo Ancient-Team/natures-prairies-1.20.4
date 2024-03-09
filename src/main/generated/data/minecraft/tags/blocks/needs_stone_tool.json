@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "natures-prairies:ceramic_block",
+    "natures-prairies:ceramic_shingles",
+    "natures-prairies:ceramic_shingles_slab",
+    "natures-prairies:ceramic_shingles_stairs",
+    "natures-prairies:ceramic_blend"
+  ]
+}

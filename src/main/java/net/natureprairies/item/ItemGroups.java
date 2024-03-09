@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.natureprairies.NaturesPrairies;
+import net.natureprairies.block.Ceramic;
 import net.natureprairies.block.Flowers;
 import net.natureprairies.block.Quartz;
 import net.natureprairies.block.Slate;
@@ -117,12 +118,17 @@ public class ItemGroups {
                         entries.add(Blocks.NETHER_QUARTZ_ORE);
                         entries.add(Items.QUARTZ);
 
+                        entries.add(Ceramic.CERAMIC_BLEND);
+                        entries.add(Ceramic.CERAMIC_BLOCK);
+                        entries.add(Ceramic.CERAMIC_SHINGLES);
+                        entries.add(Ceramic.CERAMIC_SHINGLES_SLAB);
+                        entries.add(Ceramic.CERAMIC_SHINGLES_STAIRS);
 
+                        entries.add(ModItems.CERAMIC_BLEND_LUMP);
+                        entries.add(ModItems.CERAMIC_LUMP);
 
                         //entries.add(Slate.OVERGROWN_SLATE);
                         //entries.add(Quartz.OVERGROWN_QUARTZ);
-
-
 
                     }).build());
 

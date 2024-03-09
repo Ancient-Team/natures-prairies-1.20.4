@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "minecraft:clay_ball"
+    },
+    "y": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "pattern": [
+    "yx",
+    "xy"
+  ],
+  "result": {
+    "count": 8,
+    "item": "natures-prairies:ceramic_blend_lump"
+  }
+}
