@@ -9,11 +9,14 @@
             "type": "minecraft:noise_provider",
             "noise": {
               "amplitudes": [
-                40.0
+                11.0,
+                9.0,
+                7.0,
+                14.0
               ],
               "firstOctave": 12
             },
-            "scale": 38.083332,
+            "scale": 28.083334,
             "seed": 1745,
             "states": [
               {
@@ -21,6 +24,9 @@
               },
               {
                 "Name": "natures-prairies:blue_lavender"
+              },
+              {
+                "Name": "natures-prairies:pink_lawender"
               }
             ]
           }

@@ -23,7 +23,6 @@ public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> HIGHLANDS_FLOWER_LAWENDER_FIELDS_KEY = registerKey("highlands_lavender_fields_key");
 
-    public static final RegistryKey<ConfiguredFeature<?, ?>> FLOWER_LAWENDER_FIELDS_KEY = registerKey("flower_lavender_fields_key");
 
 
 
@@ -70,32 +69,15 @@ public class ModConfiguredFeatures {
                 4,
                 PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
                         new SimpleBlockFeatureConfig(new NoiseBlockStateProvider(1745L,
-                                new DoublePerlinNoiseSampler.NoiseParameters(12, 40.0D),
-                                38.08333340F,
+                                new DoublePerlinNoiseSampler.NoiseParameters(12, 11.0D, 9.0D, 7.0D, 14.0D),
+                                28.08333340F,
                                  List.of(
                                          Flowers.LAWENDER.getDefaultState(),
-                                         Flowers.BLUE_LAVENDER.getDefaultState()
+                                         Flowers.BLUE_LAVENDER.getDefaultState(),
+                                         Flowers.PINK_LAWENDER.getDefaultState()
                                  )
                         ))
                 )
-                )
-        );
-        register(context,
-                FLOWER_LAWENDER_FIELDS_KEY,
-                Feature.FLOWER,
-                new RandomPatchFeatureConfig(20,
-                        12,
-                        4,
-                        PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                                new SimpleBlockFeatureConfig(new NoiseBlockStateProvider(1745L,
-                                        new DoublePerlinNoiseSampler.NoiseParameters(12, 40.0D),
-                                        38.08333340F,
-                                        List.of(
-                                                Flowers.LAWENDER.getDefaultState(),
-                                                Flowers.PINK_LAWENDER.getDefaultState()
-                                        )
-                                ))
-                        )
                 )
         );
     }

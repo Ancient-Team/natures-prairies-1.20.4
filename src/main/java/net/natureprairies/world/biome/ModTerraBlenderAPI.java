@@ -8,7 +8,6 @@ import terrablender.api.TerraBlenderApi;
 public class ModTerraBlenderAPI implements TerraBlenderApi {
     @Override
     public void onTerraBlenderInitialized() {
-        Regions.register(new ModOverworldRegion(new Identifier(NaturesPrairies.MODID, "lavender_fields"), 8));
         Regions.register(new ModOverworldRegion(new Identifier(NaturesPrairies.MODID, "highland_lavender_fields"), 5));
     }
 }

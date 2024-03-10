@@ -21,13 +21,8 @@ import net.natureprairies.world.ModPlacedFeatures;
 public class Modbiomes {
     public static final RegistryKey<Biome> HIGHLANDS_LAVENDER_FIELDS = RegistryKey.of(RegistryKeys.BIOME,
             new Identifier(NaturesPrairies.MODID, "highlands_lavender_fields"));
-
-    public static final RegistryKey<Biome> LAVENDER_FIELDS = RegistryKey.of(RegistryKeys.BIOME,
-            new Identifier(NaturesPrairies.MODID, "lavender_fields"));
-
     public static void bootstrap(Registerable<Biome> context) {
         context.register(HIGHLANDS_LAVENDER_FIELDS, HighlandsLavenderFields(context));
-        context.register(LAVENDER_FIELDS, LavenderFields(context));
     }
 
     public static void globalOverworldGeneration(GenerationSettings.LookupBackedBuilder builder) {
@@ -37,48 +32,7 @@ public class Modbiomes {
         DefaultBiomeFeatures.addMineables(builder);
         DefaultBiomeFeatures.addSprings(builder);
         DefaultBiomeFeatures.addFrozenTopLayer(builder);
-    }
 
-
-    public static Biome LavenderFields(Registerable<Biome> context) {
-        SpawnSettings.Builder spawnBuilder = new SpawnSettings.Builder();
-        //spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(ModEntities.PORCUPINE, 2, 3, 5));
-
-        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.WOLF, 5, 4, 4));
-
-        DefaultBiomeFeatures.addFarmAnimals(spawnBuilder);
-        DefaultBiomeFeatures.addBatsAndMonsters(spawnBuilder);
-
-        GenerationSettings.LookupBackedBuilder biomeBuilder =
-                new GenerationSettings.LookupBackedBuilder(context.getRegistryLookup(RegistryKeys.PLACED_FEATURE),
-                        context.getRegistryLookup(RegistryKeys.CONFIGURED_CARVER));
-
-        globalOverworldGeneration(biomeBuilder);
-        DefaultBiomeFeatures.addDefaultOres(biomeBuilder);
-        DefaultBiomeFeatures.addDefaultDisks(biomeBuilder);
-        DefaultBiomeFeatures.addEmeraldOre(biomeBuilder);
-
-        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.TREES_PLAINS);
-        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.FLOWER_LAVENDER_FIELDS_PLACED);
-        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.PATCH_GRASS_PLAIN);
-        DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
-
-        return new Biome.Builder()
-                .precipitation(true)
-                .downfall(0.8f)
-                .temperature(0.5f)
-                .generationSettings(biomeBuilder.build())
-                .spawnSettings(spawnBuilder.build())
-                .effects((new BiomeEffects.Builder())
-                        .waterColor(0x3F76E4)
-                        .waterFogColor(0x3F76E4)
-                        .skyColor(0x78A7FF)
-                        .grassColor(0x91BD59)
-                        .foliageColor(0x77AB2F)
-                        .fogColor(0x78A7FF)
-                        .moodSound(BiomeMoodSound.CAVE)
-                        .music(MusicType.createIngameMusic(SoundEvents.MUSIC_OVERWORLD_FOREST)).build())
-                .build();
     }
     public static Biome HighlandsLavenderFields(Registerable<Biome> context) {
         SpawnSettings.Builder spawnBuilder = new SpawnSettings.Builder();
@@ -98,7 +52,7 @@ public class Modbiomes {
         DefaultBiomeFeatures.addDefaultDisks(biomeBuilder);
         DefaultBiomeFeatures.addEmeraldOre(biomeBuilder);
 
-        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.TREES_PLAINS);
+        biomeBuilder.feature(GenerationStep.Feature.TOP_LAYER_MODIFICATION, VegetationPlacedFeatures.TREES_MEADOW);
         biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.HIGHLANDS_FLOWER_LAVENDER_FIELDS_PLACED);
         biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.PATCH_GRASS_PLAIN);
         DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
