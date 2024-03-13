@@ -21,7 +21,7 @@ public class NaturesPrairiesDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(EnglishLangProvider::new);
 		pack.addProvider(ModWorldGenerator::new);
 		//pack.addProvider(ModAdvancementProvider::new);
-		pack.addProvider(ModRecipeProvider::new);
+		//pack.addProvider(ModRecipeProvider::new);
 	}
 
 	@Override
