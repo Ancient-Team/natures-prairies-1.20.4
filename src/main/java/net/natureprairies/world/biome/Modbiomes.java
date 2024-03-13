@@ -19,10 +19,10 @@ import net.natureprairies.NaturesPrairies;
 import net.natureprairies.world.ModPlacedFeatures;
 
 public class Modbiomes {
-    public static final RegistryKey<Biome> HIGHLANDS_LAVENDER_FIELDS = RegistryKey.of(RegistryKeys.BIOME,
-            new Identifier(NaturesPrairies.MODID, "highlands_lavender_fields"));
+    public static final RegistryKey<Biome> LAVENDER_FIELDS = RegistryKey.of(RegistryKeys.BIOME,
+            new Identifier(NaturesPrairies.MODID, "lavender_fields"));
     public static void bootstrap(Registerable<Biome> context) {
-        context.register(HIGHLANDS_LAVENDER_FIELDS, HighlandsLavenderFields(context));
+        context.register(LAVENDER_FIELDS, HighlandsLavenderFields(context));
     }
 
     public static void globalOverworldGeneration(GenerationSettings.LookupBackedBuilder builder) {
@@ -53,7 +53,7 @@ public class Modbiomes {
         DefaultBiomeFeatures.addEmeraldOre(biomeBuilder);
 
         biomeBuilder.feature(GenerationStep.Feature.TOP_LAYER_MODIFICATION, VegetationPlacedFeatures.TREES_MEADOW);
-        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.HIGHLANDS_FLOWER_LAVENDER_FIELDS_PLACED);
+        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.FLOWER_LAVENDER_FIELDS_PLACED);
         biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.PATCH_GRASS_PLAIN);
         DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
 
