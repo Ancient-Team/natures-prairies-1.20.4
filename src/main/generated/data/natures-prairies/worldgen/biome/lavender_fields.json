@@ -81,7 +81,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "natures-prairies:highlands_flower_lavender_fields_placed",
+      "natures-prairies:flower_lavender_fields_placed",
       "minecraft:patch_grass_plain",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"

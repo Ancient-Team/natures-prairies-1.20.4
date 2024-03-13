@@ -20,7 +20,7 @@ public class ModMaterialRules {
         MaterialRules.MaterialRule grassSurface = MaterialRules.sequence(MaterialRules.condition(isAtOrAboveWaterLevel, LAVENDER), DIRT);
 
         return MaterialRules.sequence(
-                MaterialRules.sequence(MaterialRules.condition(MaterialRules.biome(Modbiomes.HIGHLANDS_LAVENDER_FIELDS),
+                MaterialRules.sequence(MaterialRules.condition(MaterialRules.biome(Modbiomes.LAVENDER_FIELDS),
                                 MaterialRules.condition(MaterialRules.surface(), LAVENDER)),
                         MaterialRules.condition(MaterialRules.surface(), BLUE_LAVENDER)),
                 MaterialRules.condition(MaterialRules.surface(), PINK_LAVENDER)
