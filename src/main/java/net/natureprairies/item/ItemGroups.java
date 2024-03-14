@@ -130,6 +130,8 @@ public class ItemGroups {
                         //entries.add(Slate.OVERGROWN_SLATE);
                         //entries.add(Quartz.OVERGROWN_QUARTZ);
 
+                        entries.add(Ceramic.CERAMIC_POT_ROMAN);
+
                     }).build());
 
 

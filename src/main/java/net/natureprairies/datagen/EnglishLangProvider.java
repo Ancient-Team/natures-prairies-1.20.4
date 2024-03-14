@@ -111,6 +111,8 @@ public class EnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.CERAMIC_BLEND_LUMP, "Ceramic Blend Lump");
         translationBuilder.add(ModItems.CERAMIC_LUMP, "Ceramic Lump");
 
+        translationBuilder.add(Ceramic.CERAMIC_POT_ROMAN, "Ceramic Pot Roman");
+
         //Flowers
 
         translationBuilder.add(Flowers.LAWENDER, "Lawender");
