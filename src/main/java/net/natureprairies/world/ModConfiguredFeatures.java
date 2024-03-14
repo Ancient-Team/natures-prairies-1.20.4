@@ -21,7 +21,7 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> SLATE_KEY = registerKey("slate_patch");
     //public static final RegistryKey<ConfiguredFeature<?, ?>> QUARTZ_KEY = registerKey("quartz_patch");
 
-    public static final RegistryKey<ConfiguredFeature<?, ?>> HIGHLANDS_FLOWER_LAWENDER_FIELDS_KEY = registerKey("highlands_lavender_fields_key");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> FLOWER_LAWENDER_FIELDS_KEY = registerKey("lavender_fields_key");
 
 
 
@@ -62,7 +62,7 @@ public class ModConfiguredFeatures {
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(Flowers.RED_ROSE)))));
 
         register(context,
-                HIGHLANDS_FLOWER_LAWENDER_FIELDS_KEY,
+                FLOWER_LAWENDER_FIELDS_KEY,
                 Feature.FLOWER,
                 new RandomPatchFeatureConfig(20,
                 12,

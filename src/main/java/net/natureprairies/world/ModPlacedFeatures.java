@@ -16,7 +16,7 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> SLATE_PLACED_KEY = registerKey("slate_patch_placed");
     //public static final RegistryKey<PlacedFeature> QUARTZ_PLACED_KEY = registerKey("quartz_patch_placed");
 
-    public static final RegistryKey <PlacedFeature> HIGHLANDS_FLOWER_LAVENDER_FIELDS_PLACED = registerKey("highlands_flower_lavender_fields_placed");
+    public static final RegistryKey <PlacedFeature> FLOWER_LAVENDER_FIELDS_PLACED = registerKey("flower_lavender_fields_placed");
 
     public static final  RegistryKey<PlacedFeature> PUSHKINIA_PLACED_KEY = registerKey("pushkinia_patch_placed");
     public static final  RegistryKey<PlacedFeature> CROCUS_PLACED_KEY = registerKey("crocus_patch_placed");
@@ -35,8 +35,8 @@ public class ModPlacedFeatures {
                         //HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(48))));
 
         registerKey(context,
-                HIGHLANDS_FLOWER_LAVENDER_FIELDS_PLACED,
-                configuredFeaturesRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.HIGHLANDS_FLOWER_LAWENDER_FIELDS_KEY),
+                FLOWER_LAVENDER_FIELDS_PLACED,
+                configuredFeaturesRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.FLOWER_LAWENDER_FIELDS_KEY),
                 CountPlacementModifier.of(180),
                 RarityFilterPlacementModifier.of(3),
                 SquarePlacementModifier.of(),
