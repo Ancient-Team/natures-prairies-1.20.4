@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nature-prairies:block/ceramic_pot_roman"
+      "model": "natures-prairies:block/ceramic_pot_roman_3d"
     }
   }
 }

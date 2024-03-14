@@ -1,3 +1,6 @@
 {
-  "parent": "natures-prairies:block/ceramic_pot_roman"
+  "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "natures-prairies:block/region_pot"
+    }
 }
