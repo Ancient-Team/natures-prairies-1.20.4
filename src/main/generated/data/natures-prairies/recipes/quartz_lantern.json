@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "minecraft:glowstone"
+    },
+    "y": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "pattern": [
+    " y ",
+    "yxy",
+    " y "
+  ],
+  "result": {
+    "item": "natures-prairies:quartz_lantern"
+  },
+  "show_notification": true
+}

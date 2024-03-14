@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "natures-prairies:slate_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "natures-prairies:slate"
+  }
+}

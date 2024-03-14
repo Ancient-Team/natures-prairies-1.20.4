@@ -160,48 +160,48 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //Ceramic
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CERAMIC_BLEND_LUMP, 8)
-                .pattern("yx")
-                .pattern("xy")
-                .input('x', Ingredient.ofItems(Items.CLAY_BALL))
-                .input('y', Ingredient.ofItems(Blocks.GRAVEL))
-                .criterion(hasItem(Items.CLAY_BALL), conditionsFromItem(Items.CLAY_BALL))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.CERAMIC_BLEND_LUMP)));
+        //ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CERAMIC_BLEND_LUMP, 8)
+                //.pattern("yx")
+                //.pattern("xy")
+                //.input('x', Ingredient.ofItems(Items.CLAY_BALL))
+                //.input('y', Ingredient.ofItems(Blocks.GRAVEL))
+                //.criterion(hasItem(Items.CLAY_BALL), conditionsFromItem(Items.CLAY_BALL))
+                //.offerTo(exporter, new Identifier(getRecipeName(ModItems.CERAMIC_BLEND_LUMP)));
 
-        offerSmelting(exporter, List.of(Ceramic.CERAMIC_BLEND), RecipeCategory.MISC, Ceramic.CERAMIC_BLOCK,
-                0.7f, 200, "ceramic");
+        //offerSmelting(exporter, List.of(Ceramic.CERAMIC_BLEND), RecipeCategory.MISC, Ceramic.CERAMIC_BLOCK,
+                //0.7f, 200, "ceramic");
 
         //offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC,ModItems.CERAMIC_BLEND_LUMP,RecipeCategory.BUILDING_BLOCKS, Ceramic.CERAMIC_BLEND);
 
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC,ModItems.CERAMIC_LUMP,RecipeCategory.BUILDING_BLOCKS, Ceramic.CERAMIC_BLOCK);
+        //offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC,ModItems.CERAMIC_LUMP,RecipeCategory.BUILDING_BLOCKS, Ceramic.CERAMIC_BLOCK);
 
-        offerSmelting(exporter, List.of(ModItems.CERAMIC_BLEND_LUMP), RecipeCategory.MISC, ModItems.CERAMIC_LUMP,
-                0.7f, 200, "ceramic");
+        //offerSmelting(exporter, List.of(ModItems.CERAMIC_BLEND_LUMP), RecipeCategory.MISC, ModItems.CERAMIC_LUMP,
+                //0.7f, 200, "ceramic");
 
-        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, Ceramic.CERAMIC_SHINGLES, Ceramic.CERAMIC_BLOCK);
+        //offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, Ceramic.CERAMIC_SHINGLES, Ceramic.CERAMIC_BLOCK);
 
-        offerSlabRecipe(exporter, RecipeCategory.DECORATIONS, Ceramic.CERAMIC_SHINGLES_SLAB,Ceramic.CERAMIC_SHINGLES);
+        //offerSlabRecipe(exporter, RecipeCategory.DECORATIONS, Ceramic.CERAMIC_SHINGLES_SLAB,Ceramic.CERAMIC_SHINGLES);
 
-        createStairsRecipe(Ceramic.CERAMIC_SHINGLES_STAIRS, Ingredient.ofItems(Ceramic.CERAMIC_SHINGLES))
-                .criterion(hasItem(Ceramic.CERAMIC_SHINGLES), conditionsFromItem(Ceramic.CERAMIC_SHINGLES))
-                .offerTo(exporter);
+        //createStairsRecipe(Ceramic.CERAMIC_SHINGLES_STAIRS, Ingredient.ofItems(Ceramic.CERAMIC_SHINGLES))
+                //.criterion(hasItem(Ceramic.CERAMIC_SHINGLES), conditionsFromItem(Ceramic.CERAMIC_SHINGLES))
+                //.offerTo(exporter);
 
         //Ceramic Pots
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Blocks.FLOWER_POT, 1)
-                .pattern("x x")
-                .pattern(" x ")
-                .input('x', Ingredient.ofItems(ModItems.CERAMIC_LUMP))
-                .criterion(hasItem(ModItems.CERAMIC_LUMP), conditionsFromItem(ModItems.CERAMIC_LUMP))
-                .offerTo(exporter, new Identifier(getRecipeName(Blocks.FLOWER_POT)));
+        //ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Blocks.FLOWER_POT, 1)
+                //.pattern("x x")
+                //.pattern(" x ")
+                //.input('x', Ingredient.ofItems(ModItems.CERAMIC_LUMP))
+                //.criterion(hasItem(ModItems.CERAMIC_LUMP), conditionsFromItem(ModItems.CERAMIC_LUMP))
+                //.offerTo(exporter, new Identifier(getRecipeName(Blocks.FLOWER_POT)));
 
-ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Ceramic.CERAMIC_POT_GREEK, 1)
-                .pattern("xyx")
-                .pattern(" x ")
-                .input('x', Ingredient.ofItems(Ceramic.CERAMIC_BLEND))
-                .input('y', Ingredient.ofItems(Items.LIGHT_BLUE_DYE))
-                .criterion(hasItem(Ceramic.CERAMIC_BLEND), conditionsFromItem(Ceramic.CERAMIC_BLEND))
-                .offerTo(exporter, new Identifier(getRecipeName(Ceramic.CERAMIC_POT_GREEK)));
+        //ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Ceramic.CERAMIC_POT_GREEK, 1)
+                //.pattern("xyx")
+                //.pattern(" x ")
+                //.input('x', Ingredient.ofItems(Ceramic.CERAMIC_BLEND))
+                //.input('y', Ingredient.ofItems(Items.LIGHT_BLUE_DYE))
+                //.criterion(hasItem(Ceramic.CERAMIC_BLEND), conditionsFromItem(Ceramic.CERAMIC_BLEND))
+                //.offerTo(exporter, new Identifier(getRecipeName(Ceramic.CERAMIC_POT_GREEK)));
 
 
 
